@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="thankyou-home">
+    <div class="thankyou-card" role="dialog" aria-labelledby="thankyou-heading">
+      <div class="thankyou-content">
+        <div class="thankyou-icon" aria-hidden="true">
+          ✔️
+        </div>
+        <h1 id="thankyou-heading">Thank You!</h1>
+        <p class="thankyou-message">
+          <strong>Dr. Amit Sharma</strong> has received your message. Our team will contact you as soon as possible.
+          Meanwhile, feel free to reach us directly:
+        </p>
+        <div class="thankyou-contact">
+          <p><strong>Email:</strong> <a href="mailto:amit9851@yahoo.com" aria-label="Send email to Dr. Amit Sharma">amit9851@yahoo.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+918750056560" aria-label="Call Dr. Amit Sharma">+91-8750056560</a></p>
+        </div>
+        <button onclick="goHome()" aria-label="Visit our website">Visit Our Website</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    function goHome() {
+      window.location.href = "/";
+    }
+  </script>
+</body>
+</html>
