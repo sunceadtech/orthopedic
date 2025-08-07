@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,6 +13,10 @@
     <link rel="canonical" href="https://dramitsharmaortho.com/contact" />
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -46,8 +49,29 @@
       }
     </script>
 </head>
-
 <body>
+ <div class="top-bar">
+    <div class="top-bar-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <span>+91-8750056560 / 8826629486</span>
+          <i class="fas fa-envelope" id="email-icon"></i>
+          <span>amit9851@yahoo.com</span>
+        </div>
+      </div>
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile?id=61560396193559" target="_blank"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/amit-sharma-175232a4/" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/amit9851" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+    <!--navbar code here-->
     <header class="navbar">
         <div class="container nav-inner">
             <!-- Logo -->
@@ -63,11 +87,10 @@
 
                     <li class="dropdown">
                         <div class="dropdown-toggle">
-                            Orthopedic Treatments
+                            Our Experties
                             <i class="fas fa-chevron-down" id="dropicon"></i>
                         </div>
                         <ul class="dropdown-menu">
-                            <li><a href="/services.html">Orthopedic Services</a></li>
                             <li>
                                 <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
                             </li>
@@ -93,7 +116,7 @@
 
                     <li class="dropdown">
                         <div class="dropdown-toggle">
-                            Patient Resources <i class="fas fa-chevron-down"></i>
+                            Patient resource <i class="fas fa-chevron-down"></i>
                         </div>
                         <ul class="dropdown-menu">
                             <li><a href="/testimonial.html">Patient Testimonials</a></li>
@@ -101,8 +124,8 @@
                         </ul>
                     </li>
 
-                    <li><a href="/blog.html">Health Blogs</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="blog.html">Health Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
 
@@ -115,13 +138,12 @@
         <!-- Mobile Nav -->
         <nav class="mobile-nav" id="mobile-nav">
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
 
                 <details>
-                    <summary>Orthopedic Treatments</summary>
+                    <summary>Our Experties</summary>
                     <ul>
-                        <li><a href="/services.html">Orthopedic Services</a></li>
                         <li>
                             <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
                         </li>
@@ -153,24 +175,30 @@
             </ul>
         </nav>
     </header>
-
-    <section class="hero-section">
-        <img src="/images/contact.webp" alt="Orthopedic Surgeon" />
-        <div class="overlay"></div>
-        <div class="hero-content">
-            <h1>Contact Best Ortho Surgeon In Indrapuram</h1>
-            <nav class="breadcrumb">
-                <a href="index.html">Home</a> › <span>Contact Us</span>
-            </nav>
+    <!-- navbar end here -->
+    <header class="about-main-section">
+        <div class="hero-image">
+            <img src="/images/paitentinfo.webp" alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad" width="1920"
+                height="500" />
+            <div class="overlay"></div>
+            <div class="hero-text">
+                <h1>
+                    Contact Us
+                </h1>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span class="chevron">></span>
+                    <span class="current">Contact Us</span>
+                </nav>
+            </div>
         </div>
-    </section>
+    </header>
 
     <main class="contact-main">
         <div class="contact-header">
             <h2>Get In Touch</h2>
             <p>
-                Experiencing bone, joint, or sports-related issues? Book a
-                consultation.
+                If you are facing any bone, joint or sports injury-related issues, contact us
             </p>
         </div>
 
@@ -183,17 +211,21 @@
                 <p id="form-error"></p>
                 <button type="submit">Submit Now</button>
             </form>
+            <aside class="contact-information">
+                <p><i class="fas fa-map-marker-alt"></i> Yashoda Super Speciality Hospital, Kaushambi, Ghaziabad</p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+918750056560">+91-8750056560</a></p>
 
-            <aside class="contact-info">
-                <p><strong>Clinic 1:</strong> Yashoda Super Speciality Hospital, Ghaziabad</p>
-                <p><strong>Phone:</strong> <a href="tel:+918750056560">+91-8750056560</a></p>
-                <p><strong>Clinic 2:</strong> City Clinic, Indirapuram, Ghaziabad</p>
-                <p><strong>Phone:</strong> <a href="tel:+918826629486">+91-8826629486</a></p>
-                <p><strong>Email:</strong> <a href="mailto:amit9851@yahoo.com">amit9851@yahoo.com</a></p>
-                <p><strong>Website:</strong> <a href="https://dramitsharmaortho.com/"
+                <p><i class="fas fa-map-marker-alt"></i> City Clinic, Krishna Nagar (Opposite Swarn Cinema, near Surya
+                    Hospital), Delhi</p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+918826629486">+91-8826629486</a></p>
+
+                <p><i class="fas fa-envelope"></i> <a href="mailto:amit9851@yahoo.com">amit9851@yahoo.com</a></p>
+                <p><i class="fas fa-globe"></i> <a href="https://dramitsharmaortho.com/"
                         target="_blank">dramitsharmaortho.com</a></p>
-                <p><strong>Hours:</strong> Mon–Sat: 9 AM to 9 PM</p>
+                <p><i class="fas fa-clock"></i> Mon–Sat: 9 AM to 9 PM</p>
             </aside>
+
+
         </div>
     </main>
 
@@ -301,6 +333,8 @@
         </div>
     </footer>
     <!-- footer working end  here -->
+
+    <script src="app.js"></script>
     <script src="contact.js"></script>
 </body>
 

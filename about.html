@@ -7,6 +7,7 @@
     <title>Best Orthopedic Doctor in Ghaziabad | Dr. Amit Sharma | DrAmitSharmaOrtho</title>
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-...your-integrity..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="description"
@@ -17,7 +18,7 @@
     <meta name="googlebot" content="index, follow" />
     <meta name="author" content="Dr. Amit Sharma" />
     <link rel="canonical" href="https://dramitsharmaortho.com/about" />
-    <link rel="stylesheet" href="styles.css" />
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -73,6 +74,28 @@
 </head>
 
 <body>
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91-8750056560 / 8826629486</span>
+                    <i class="fas fa-envelope" id="email-icon"></i>
+                    <span>amit9851@yahoo.com</span>
+                </div>
+            </div>
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile?id=61560396193559" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/amit-sharma-175232a4/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/amit9851" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--navbar code here-->
     <header class="navbar">
         <div class="container nav-inner">
             <!-- Logo -->
@@ -88,11 +111,10 @@
 
                     <li class="dropdown">
                         <div class="dropdown-toggle">
-                            Orthopedic Treatments
+                            Our Experties
                             <i class="fas fa-chevron-down" id="dropicon"></i>
                         </div>
                         <ul class="dropdown-menu">
-                            <li><a href="/services.html">Orthopedic Services</a></li>
                             <li>
                                 <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
                             </li>
@@ -118,7 +140,7 @@
 
                     <li class="dropdown">
                         <div class="dropdown-toggle">
-                            Patient Resources <i class="fas fa-chevron-down"></i>
+                            Patient resource <i class="fas fa-chevron-down"></i>
                         </div>
                         <ul class="dropdown-menu">
                             <li><a href="/testimonial.html">Patient Testimonials</a></li>
@@ -144,9 +166,8 @@
                 <li><a href="/about.html">About</a></li>
 
                 <details>
-                    <summary>Orthopedic Treatments</summary>
+                    <summary>Our Experties</summary>
                     <ul>
-                        <li><a href="/services.html">Orthopedic Services</a></li>
                         <li>
                             <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
                         </li>
@@ -178,24 +199,20 @@
             </ul>
         </nav>
     </header>
+    <!-- navbar end here -->
     <header class="about-main-section">
         <div class="hero-image">
-            <img src="/images/main.webp" alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad" width="1920"
+            <img src="/images/heromain.webp" alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad" width="1920"
                 height="500" />
             <div class="overlay"></div>
             <div class="hero-text">
                 <h1>
-                    About Dr. Amit Sharma Trusted Orthopedic Specialist in Indirapuram
-                    & Ghaziabad
+                    About The Doctor
                 </h1>
-                <p>
-                    Your trusted orthopedic specialist for joint replacement, sports
-                    injuries, and trauma care in Ghaziabad.
-                </p>
                 <nav class="breadcrumb">
-                    <a href="/">Home</a>
+                    <a href="index.html">Home</a>
                     <span class="chevron">></span>
-                    <span class="current">About Dr. Amit Sharma</span>
+                    <span class="current">About The Doctor</span>
                 </nav>
             </div>
         </div>
@@ -206,82 +223,122 @@
             <div class="about-doctor">
                 <img src="/images/doctor2.webp" alt="Best Orthopedic Doctor" />
                 <div class="doctor-info">
-                    <h2>Meet Dr. Amit Sharma Leading Orthopedic & Joint Replacement Surgeon in Ghaziabad</h2>
+                    <h2>Dr. Amit Sharma</h2>
                     <p>
-                        With <strong>23+ years of orthopedic experience</strong>, Dr. Amit Sharma is a board-certified,
-                        internationally trained orthopedic surgeon in Ghaziabad. His clinical expertise includes
-                        <strong>knee and hip replacement, arthroscopy, sports injury treatment</strong>, and minimally
-                        invasive fracture surgery.
-                        <br /><br />He has served as the Head of Orthopedics at Dr. Hedgewar Hospital for over 8 years
-                        and completed senior residencies at LNJP (MAMC) and Sant Parmanand Hospitals. He’s a triathlon
-                        and marathon enthusiast, deeply understanding sports rehab and performance.
-                        <br /><br /><strong>Motto:</strong> “Movement is medicine — restore it right.”
+                        Dr. Amit Sharma is an <strong>internationally trained orthopedic surgeon</strong> with over
+                        <strong>23 years of experience</strong>, specializing in <strong>joint replacements,
+                            arthroscopy,
+                            minimally invasive complex trauma surgeries, and sports injuries</strong>.
                     </p>
+                    <p>
+                        What truly sets him apart is his rare combination of clinical expertise and personal passion. As
+                        an
+                        avid endurance athlete, Dr. Sharma regularly participates in <strong>marathons, triathlons,
+                            table tennis,</strong> and
+                        <strong>club-level cricket</strong>. His firsthand experience with sports gives him deeper
+                        insight into
+                        the specific needs and recovery paths of athletes.
+                    </p>
+                    <p>
+                        Before moving into private practice in 2012, he completed senior residencies at
+                        <strong>LNJP (MAMC)</strong> and <strong>Sant Parmanand Hospital</strong>, Delhi, and served as
+                        <strong>Head of Orthopedics</strong> at Dr. Hedgewar Hospital, Delhi, for 8 years.
+                    </p>
+                    <p>
+                        He has enhanced his skills through fellowships in <strong>Joint Replacement, Arthroscopy, and
+                            Sports Injuries</strong> from
+                        <strong>NSOSMC, Sydney</strong>, and the <strong>Synthes Fellowship</strong> in
+                        <strong>Minimally Invasive Trauma Surgery</strong>
+                        from <strong>KUMC, Seoul</strong>.
+                    </p>
+                    <p>
+                        Further committing to excellence, he completed a <strong>PG Diploma in Sports & Exercise
+                            Medicine</strong> from
+                        the <strong>University of South Wales, England</strong>—making him one of the few orthopedic
+                        surgeons in Northern India with such a specialization.
+                    </p>
+                    <p>
+                        Currently, Dr. Sharma serves as <strong>Principal Consultant, Orthopedics</strong> at
+                        <strong>Yashoda Super Speciality Hospital, Kaushambi, Ghaziabad</strong>, with a strong focus on
+                        <strong>Joint Replacements and Arthroscopy</strong>. He also runs his clinic,
+                        <strong>City Clinic</strong>, in Krishna Nagar, Delhi.
+                    </p>
+                    <p>
+                        <strong>Mantra:</strong> “Fitness First, Everything Afterwards” — a reflection of his commitment
+                        to health, healing, and human movement.
+                    </p>
+
                     <div class="specialties">
                         <ul>
                             <li>Joint Replacement (Knee & Hip)</li>
-                            <li>Advanced Arthroscopic Procedures</li>
+                            <li>Arthroscopy (Sports & Ligament Injuries)</li>
                         </ul>
                         <ul>
-                            <li>Sports Injury Rehabilitation</li>
+                            <li>Sports Injury Management & Rehabilitation</li>
                             <li>Minimally Invasive Trauma Surgery</li>
                         </ul>
                     </div>
                 </div>
             </div>
-
             <div class="qualification-cards">
                 <div class="card">
-                    <h3>Dr. Amit Sharma’s Qualifications</h3>
+                    <h3>FELLOWSHIPS / ADVANCED TRAINING</h3>
                     <ul>
-                        <li>MBBS – University Of Agra, 1996</li>
-                        <li>MS – Orthopaedics – BRD Medical College, Gorakhpur, 2000</li>
-                        <li>Kleos Fellowship – North Sydney Orthopedics</li>
-                        <li>Synthes Fellowship – Seoul, Korea</li>
-                        <li><strong>Call:</strong> <a href="tel:+918826629486">+91 88266 29486</a></li>
-                        <li><strong>Email:</strong> <a href="mailto:amit9851@yahoo.com">amit9851@yahoo.com</a></li>
+                        <li>Knee Replacement, Arthroscopy & Sports Injuries - Sydney</li>
+                        <li>Minimally Invasive Trauma Surgery – Seoul</li>
+                        <li>Pg Diploma in Sports and Exercise Medicine - South Wales, England</li>
                     </ul>
                 </div>
 
-                <div class="card">
-                    <h3>Dr. Amit Sharma’s Memberships</h3>
-                    <ul>
-                        <li>KLEOS Fellowship – Sydney</li>
-                        <li>Fellowship – Korea University Medical Centre</li>
-                        <li>Well-known orthopedic surgeon in Ghaziabad</li>
-                        <li><strong>Call:</strong> <a href="tel:+918826629486">+91 88266 29486</a></li>
-                        <li><strong>Email:</strong> <a href="mailto:amit9851@yahoo.com">amit9851@yahoo.com</a></li>
-                    </ul>
-                </div>
 
                 <div class="card">
-                    <h3>Dr. Amit Sharma’s Specialities</h3>
+                    <h3>OPD Timings @ Yashoda Super Speciality Hospital</h3>
                     <ul>
-                        <li>Arthroscopy & Sports Injuries</li>
-                        <li>Primary & Revision Knee & Hip Replacements</li>
-                        <li>Minimally Invasive Trauma Surgery</li>
-                        <li>Complex Orthopedic Trauma</li>
-                        <li>Hip Replacement Surgery</li>
-                        <li>Sports Injury Management</li>
+                        <li>Monday to Saturday</li>
+                        <li>09 AM to 02 PM</li>
+                        <li>05 PM to 07 PM</li>
+                        <li>Yashoda Super Speciality Hospital, Kaushambi, Ghaziabad</li>
                         <li><strong>Call:</strong> <a href="tel:+918750056560">+91 87500 56560</a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>OPD Timings @ City Clinic Krishna Nagar</h3>
+                    <ul>
+                        <li><strong>Days:</strong> Monday to Saturday</li>
+                        <li><strong>Time:</strong> 07 PM to 09 PM</li>
+                        <li><strong>Location:</strong> City Clinic, Krishna Nagar (Opposite Swarn Cinema, near Surya
+                            Hospital), Delhi</li>
+                        <li><strong>Call:</strong> <a href="tel:+918826629486">+91 88266 29486</a></li>
                         <li><strong>Email:</strong> <a href="mailto:amit9851@yahoo.com">amit9851@yahoo.com</a></li>
                     </ul>
                 </div>
             </div>
             <div class="cta-center">
-                <a href="/services.html" class="cta-button">Explore All Services</a>
+                <a href="services.html" class="cta-button">View All Services</a>
             </div>
         </section>
         <section class="bottom-cta">
             <p>
-                Experiencing joint pain, fractures, or ligament issues? Trust Dr.
-                Amit Sharma for personalized, world-class orthopedic care.
+                If you are facing any joint, bone or sports injury-related issues, contact us
             </p>
-            <a href="/contact.html" class="cta-secondary">Book Consultation</a>
+            <a href="contact.html" class="cta-secondary">Get Appoinment</a>
         </section>
     </main>
+    <!--crawsel section here-->
+    <section id="testimonial-section-long-unique">
+        <div id="testimonial-container-unique">
+            <h3 id="testimonial-heading-unique">Our Happy Patients</h3>
 
-
+            <div class="swiper mySwiper" id="testimonial-swiper-unique">
+                <div class="swiper-wrapper">
+                    <!-- Slides will be injected dynamically via JS -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!--crawsel end here-->
 
     <!-- footer working  start here -->
     <footer class="footer-page bg-gray-900 text-white pt-12 pb-6 text-sm leading-relaxed">
@@ -380,6 +437,7 @@
         </div>
     </footer>
     <!-- footer working end  here -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
 </body>
 

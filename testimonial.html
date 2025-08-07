@@ -43,6 +43,28 @@
 
 <body>
     <!-- Hero Section -->
+      <div class="top-bar">
+    <div class="top-bar-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <span>+91-8750056560 / 8826629486</span>
+          <i class="fas fa-envelope" id="email-icon"></i>
+          <span>amit9851@yahoo.com</span>
+        </div>
+      </div>
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile?id=61560396193559" target="_blank"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/amit-sharma-175232a4/" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/amit9851" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+    <!--navbar code here-->
     <header class="navbar">
         <div class="container nav-inner">
             <!-- Logo -->
@@ -58,11 +80,10 @@
 
                     <li class="dropdown">
                         <div class="dropdown-toggle">
-                            Orthopedic Treatments
+                            Our Experties
                             <i class="fas fa-chevron-down" id="dropicon"></i>
                         </div>
                         <ul class="dropdown-menu">
-                            <li><a href="/services.html">Orthopedic Services</a></li>
                             <li>
                                 <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
                             </li>
@@ -88,7 +109,7 @@
 
                     <li class="dropdown">
                         <div class="dropdown-toggle">
-                            Patient Resources <i class="fas fa-chevron-down"></i>
+                            Patient resource <i class="fas fa-chevron-down"></i>
                         </div>
                         <ul class="dropdown-menu">
                             <li><a href="/testimonial.html">Patient Testimonials</a></li>
@@ -114,9 +135,8 @@
                 <li><a href="/about.html">About</a></li>
 
                 <details>
-                    <summary>Orthopedic Treatments</summary>
+                    <summary>Our Experties</summary>
                     <ul>
-                        <li><a href="/services.html">Orthopedic Services</a></li>
                         <li>
                             <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
                         </li>
@@ -148,29 +168,30 @@
             </ul>
         </nav>
     </header>
+    <!-- navbar end here -->
 
-  <section class="testimonial-hero-section">
-    <img src="/images/testimonial.webp" alt="Happy patient after orthopedic treatment" class="testimonial-hero-image" />
-    <div class="testimonial-hero-overlay"></div>
-    <div class="testimonial-hero-content">
-      <h1>Best Orthopedic Doctor Indrapuram Ghaziabad</h1>
-      <p>
-        Discover how <strong>Dr. Amit Sharma</strong>, one of the
-        <strong>best orthopedic surgeons in Ghaziabad</strong>, has helped
-        patients recover from joint pain, fractures, and complex surgeries.
-      </p>
-      <div class="testimonial-breadcrumb">
-        <a href="/">Home</a>
-        <span>/</span>
-        <span class="current">Testimonials</span>
-      </div>
-    </div>
-  </section>
+    <header class="about-main-section">
+        <div class="hero-image">
+            <img src="/images/heromain.webp" alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad" width="1920"
+                height="500" />
+            <div class="overlay"></div>
+            <div class="hero-text">
+                <h1>
+                    Testimonails
+                </h1>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span class="chevron">></span>
+                    <span class="current">Testimonails</span>
+                </nav>
+            </div>
+        </div>
+    </header>
 
 
     <section class="testimonials" id="testimonialContainer" aria-label="Patient testimonials">
-    <!-- Cards will be injected here by JS -->
-  </section>
+        <!-- Cards will be injected here by JS -->
+    </section>
 
     <!-- footer working  start here -->
     <footer class="footer-page bg-gray-900 text-white pt-12 pb-6 text-sm leading-relaxed">
@@ -269,7 +290,9 @@
         </div>
     </footer>
     <!-- footer working end  here -->
-     <script src="testimonail.js"></script>
+        
+   <script src="app.js"></script>
+    <script src="testimonail.js"></script>
 </body>
 
 </html>

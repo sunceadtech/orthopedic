@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="common.css" />
   <!-- Font Awesome CDN -->
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     integrity="sha512-...your-integrity..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -28,26 +31,23 @@
         <div class="info-item">
           <i class="fas fa-phone"></i>
           <span>+91-8750056560 / 8826629486</span>
-          <i class="fas fa-envelope"></i>
+          <i class="fas fa-envelope" id="email-icon"></i>
           <span>amit9851@yahoo.com</span>
         </div>
       </div>
-
       <!-- Social Icons -->
       <div class="social-icons">
-        <a href="https://www.facebook.com/profile?id=61560396193559" target="_blank" aria-label="Facebook">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/amit-sharma-175232a4/" target="_blank" aria-label="LinkedIn">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://www.instagram.com/amit9851?utm_source=qr&igsh=dG5tZXlxdXJoendk" target="_blank"
-          aria-label="Instagram">
-          <i class="fab fa-instagram"></i>
-        </a>
+        <a href="https://www.facebook.com/profile?id=61560396193559" target="_blank"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/amit-sharma-175232a4/" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/amit9851" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
   </div>
+
+
+  <!--navbar code here-->
   <header class="navbar">
     <div class="container nav-inner">
       <!-- Logo -->
@@ -63,11 +63,10 @@
 
           <li class="dropdown">
             <div class="dropdown-toggle">
-              Orthopedic Treatments
+              Our Experties
               <i class="fas fa-chevron-down" id="dropicon"></i>
             </div>
             <ul class="dropdown-menu">
-              <li><a href="/services.html">Orthopedic Services</a></li>
               <li>
                 <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
               </li>
@@ -93,7 +92,7 @@
 
           <li class="dropdown">
             <div class="dropdown-toggle">
-              Patient Resources <i class="fas fa-chevron-down"></i>
+               Patient resource <i class="fas fa-chevron-down"></i>
             </div>
             <ul class="dropdown-menu">
               <li><a href="/testimonial.html">Patient Testimonials</a></li>
@@ -119,9 +118,8 @@
         <li><a href="/about.html">About</a></li>
 
         <details>
-          <summary>Orthopedic Treatments</summary>
+          <summary>Our Experties</summary>
           <ul>
-            <li><a href="/services.html">Orthopedic Services</a></li>
             <li>
               <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
             </li>
@@ -153,106 +151,180 @@
       </ul>
     </nav>
   </header>
+
+
   <!-- navbar end here -->
   <!-- home page start here -->
-  <section class="hero-section" aria-label="Home Hero Section">
-    <!-- Desktop View -->
-    <div class="desktop-slider">
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <!-- Slide 1 -->
-          <div class="swiper-slide slide" style="background-image: url('/images/heroimage.webp')">
-            <img src="/images/heroimage.webp"
-              alt="Orthopedic surgeon in Ghaziabad treating joint, bone, and spine patients" class="hidden-img" />
-            <div class="slide-content">
-              <h1>Best Orthopedic Surgeon In Ghaziabad</h1>
-              <p>
-                Are You Looking For Best Orthopedic Surgeon In Ghaziabad For
-                Joint Pain Treatment, Knee Replacement, Hip Replacement Or Any
-                Other surgery? You Can Contact Dr Amit Sharma
-              </p>
-              <p class="highlight">
-                Book Appointment With Best Ortho surgeon
-              </p>
-              <div class="btn-group">
-                <a href="/contact.html">Book Appointment With Best Ortho Surgeon</a>
-                <a href="/contact.html" class="outline">Best Orthopedic Clinic, Ghaziabad</a>
-              </div>
-              <div class="stats">
-                <div><strong>8K+</strong><span>Joint Replacements</span></div>
-                <div><strong>50K+</strong><span>Operated Patients</span></div>
-                <div>
-                  <strong>24+</strong><span>Years of Experience</span>
+  <div class="swiperMainWrapper mainSwiperbanner homeindex3">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide mainBanner bgShadow">
+          <div class="sliderBg bannerimg1"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                <div class="cell-view">
+                  <div class="rightone">
+                    <div class="bannerContentWrapper">
+                      <div class="bannerTitle">
+                        <h1 class="h1 light as">Expert Care for Every Step You Take</h1>
+                        <p>We are dedicated to restoring your mobility and enhancing your quality of life with
+                          personalised treatment plans and advanced surgical techniques</p>
+                      </div>
+                      <div class="bannerBtnWrapper">
+                        <h3 class="h3 light as mobilemargin">Book an Appointment</h3>
+                        <a href="contact.html" class="button btnSize1 btnstyle1">Yashoda Super Speciality Hospital,
+                          Kaushambi</a><br>
+                        <a href="contact.html" class="button btnStyle3 btnSize1">City Clinic, Krishna Nagar</a>
+
+                        <div class="blue_linebanner">
+                          <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                              <div class="number">
+                                <h3>3K+</h3>
+                              </div>
+                              <div class="text">
+                                <h4>Successful</h4>
+                                <h4>Joint Replacements</h4>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                              <div class="number">
+                                <h3>10K+</h3>
+                              </div>
+                              <div class="text">
+                                <h4>Satisfied Operated</h4>
+                                <h4>Patients</h4>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                              <div class="number">
+                                <h3>23+</h3>
+                              </div>
+                              <div class="text last">
+                                <h4>years</h4>
+                                <h4>of</h4>
+                                <h4>experience</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Slide 2 -->
-          <div class="swiper-slide slide" style="background-image: url('/images/herobanner.webp')">
-            <img src="/images/herobanner.webp" alt="Orthopedic doctor in Indirapuram performing hip and knee surgeries"
-              class="hidden-img" />
-            <div class="slide-content">
-              <h2>Best Orthopedic Doctor In Indirapuram</h2>
-              <p>
-                Receive expert surgical care with cutting-edge technology for
-                faster recovery in hip and knee joint replacements in
-                Indrapuram
-              </p>
-              <p class="highlight">
-                Book Appointment With Best Ortho surgeon
-              </p>
-              <div class="btn-group">
-                <a href="/contact.html">Book Appointment With Best Ortho Surgeon</a>
-                <a href="/contact.html" class="outline">Best Orthopedic Clinic, Ghaziabad</a>
-              </div>
-              <div class="stats">
-                <div><strong>8K+</strong><span>Joint Replacements</span></div>
-                <div><strong>50K+</strong><span>Operated Patients</span></div>
-                <div>
-                  <strong>24+</strong><span>Years of Experience</span>
+        <!-- Slide 2 -->
+        <div class="swiper-slide mainBanner bgShadow">
+          <div class="sliderBg bannerimg2"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                <div class="cell-view">
+                  <div class="rightone">
+                    <div class="bannerContentWrapper">
+                      <div class="bannerTitle">
+                        <h2 class="h1 light as">Mastering Surgical Excellence for Optimal Outcomes</h2>
+                        <p>With unparalleled expertise and cutting-edge techniques, we provide top-tier orthopaedic
+                          surgical care.</p>
+                      </div>
+                      <div class="bannerBtnWrapper">
+                        <h3 class="h3 light as mobilemargin">Book an Appointment</h3>
+                        <a href="contact.html" class="button btnSize1 btnstyle1">Yashoda Super Speciality Hospital,
+                          Kaushambi</a><br>
+                        <a href="contact.html" class="button btnStyle3 btnSize1">City Clinic, Krishna Nagar</a>
+
+                        <div class="blue_linebanner">
+                          <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                              <div class="number">
+                                <h3>3K+</h3>
+                              </div>
+                              <div class="text">
+                                <h4>Successful</h4>
+                                <h4>Joint Replacements</h4>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                              <div class="number">
+                                <h3>10K+</h3>
+                              </div>
+                              <div class="text">
+                                <h4>Satisfied Operated</h4>
+                                <h4>Patients</h4>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                              <div class="number">
+                                <h3>24+</h3>
+                              </div>
+                              <div class="text last">
+                                <h4>years</h4>
+                                <h4>of</h4>
+                                <h4>experience</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Mobile View -->
-    <div class="mobile-hero">
-      <img src="/images/heroimage3-mobile.webp" alt="Dr. Amit Sharma Orthopedic Hero" />
-      <h1>Best Orthopedic Surgeon in Ghaziabad</h1>
-      <p>
-        We are dedicated to restoring your mobility and enhancing your quality
-        of life with personalized treatment plans and advanced surgical
-        techniques.
-      </p>
-      <h2>Book Appointment With Best Ortho surgeon</h2>
-      <div class="btn-group">
-        <a href="/contact.html">Best Orthopedic Hospital Knee and Hip Joint</a>
-        <a href="/contact.html" class="outline">City Clinic, Ghaziabad</a>
-      </div>
-      <div class="stats">
-        <div><strong>4K+</strong><span>Joint Replacements</span></div>
-        <div><strong>84K+</strong><span>Operated Patients</span></div>
-        <div><strong>24+</strong><span>Years of Experience</span></div>
-      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
     </div>
-  </section>
+  </div>
   <!-- home page end here -->
 
-  <!-- first content section start  2 -->
-  <section class="ortho-services-section-wrapper" aria-label="Orthopedic Surgical Services">
-    <div class="ortho-services-container">
-      <h2 class="ortho-services-heading">Unsure About Best Orthopedic Surgeon In Indirapuram</h2>
-      <p class="ortho-services-description">
-        From minimally invasive arthroscopy to total joint replacement, we offer advanced orthopedic
-        treatments tailored to restore function, relieve pain, and improve your mobility.
+  <!-- Expertise Section -->
+  <section id="testimonial">
+    <div id="container">
+      <h3 id="section-title">Our <span>Expertise</span></h3>
+      <p id="section-subtitle">
+        With unparalleled surgical expertise and comprehensive non-surgical treatments, we ensure optimal recovery from
+        complex joint, bone, and muscle conditions.
       </p>
 
-      <div class="ortho-services-grid" id="ortho-services-grid-id">
-        <!-- Dynamic content will be injected here -->
+      <!-- Swiper -->
+      <div class="swiper" id="expertiseSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/experties1.png" alt="Arthroscopy">
+            <p><a href="arthroscopy" target="_blank">Arthroscopy</a></p>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/experties2.png" alt="ACL & PCL Reconstruction">
+            <p><a href="recounstruction" target="_blank">ACL & PCL Reconstruction</a></p>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/experties3.png" alt="Sports Injury">
+            <p><a href="sports-injury" target="_blank">Sports Injury</a></p>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/experties5.png" alt="Arthritis">
+            <p><a href="arthritis" target="_blank">Arthritis</a></p>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/experties6.png" alt="Osteoporosis">
+            <p><a href="osteoporosis" target="_blank">Osteoporosis</a></p>
+          </div>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
@@ -261,45 +333,32 @@
   <!-- home about content section start -->
   <section class="homeabout-section-wrapper" aria-labelledby="homeabout-doctor-heading">
     <div class="homeabout-container">
-
       <!-- Image Section -->
       <figure class="homeabout-image-wrapper">
         <img src="/images/drsharma.webp"
           alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad, expert in joint replacement and sports injuries"
           width="600" height="500" loading="lazy" decoding="async" />
         <figcaption class="sr-only">
-          Dr. Amit Sharma – Orthopedic Surgeon & Sports Injury Specialist
+          Meet <span>Dr Amit Sharma</span>
         </figcaption>
       </figure>
 
       <!-- Text Section -->
       <article>
         <h3 id="homeabout-doctor-heading" class="homeabout-heading">
-          Meet <span class="homeabout-highlight">Best Orthopedic Surgeon In Ghaziabad</span>
+          Meet <span class="home-about-h2">Dr Amit Sharma</span>
         </h3>
-
         <p class="homeabout-paragraph">
-          With over 23 years of surgical experience, Dr. Amit Sharma is a renowned orthopedic
-          specialist in Ghaziabad, known for his expertise in joint replacement, arthroscopy,
-          trauma surgery, and sports injuries. His personal commitment to endurance sports like
-          marathons and triathlons deeply informs his patient-centric care.
+          Dr Amit Sharma is an Orthopedic surgeon with over 23 years of experience, specializing in Joint replacements,
+          Arthroscopy, Minimally invasive trauma surgery, and Sports injuries. What really sets him apart is his unique
+          blend of professional expertise and personal passion. As an avid endurance athlete, Dr. Sharma regularly
+          participates in Marathons, Triathlons, and Swimming competitions. This first hand experience fuels his drive
+          and enhances his medical practice, giving him a deeper understanding of sports injuries and specific needs of
+          athletes.
         </p>
-
-        <p class="homeabout-paragraph">
-          Dr. Sharma blends surgical precision with an athlete’s mindset, empowering patients to
-          recover faster, move confidently, and live a pain-free life.
-        </p>
-
-        <p class="homeabout-paragraph">
-          As the founder of one of Ghaziabad’s most trusted orthopedic centers, he has transformed
-          thousands of lives through innovative treatments and compassionate care. His approach
-          combines modern medical science with personalized rehabilitation strategies, ensuring
-          long-term mobility and wellness for every patient.
-        </p>
-
         <a href="/about.html" class="homeabout-button"
           aria-label="Learn more about Dr. Amit Sharma - orthopedic specialist in Ghaziabad">
-          Get To Know About Dr. Sharma
+          Know More
         </a>
       </article>
     </div>
@@ -309,19 +368,18 @@
   <section class="youtube-video-section" aria-labelledby="youtube-video-heading">
     <div class="youtube-video-container">
       <header class="youtube-video-header">
-        <p id="youtube-video-heading" class="youtube-video-heading">
-          Orthopedic Video Guide: Treatments & Recovery Explained
-        </p>
+        <h3 id="youtube-video-heading" class="youtube-video-heading">
+          Doctor Speaks
+        </h3>
         <p class="youtube-video-subheading">
-          Watch expert insights from Dr. Amit Sharma on joint health, sports injuries,
-          and advanced orthopedic treatments.
+          Explore various orthopedic procedures, patients’ success stories, and informative discussions on improving
+          musculoskeletal health
         </p>
       </header>
 
       <div class="youtube-video-scroll" role="region" aria-label="Orthopedic videos by Dr. Amit Sharma">
         <div class="youtube-video-wrapper">
-          <!-- Videos -->
-          <!-- You can replicate this block for more videos -->
+          <!-- Video 1 -->
           <div class="youtube-video-card">
             <iframe class="youtube-video-frame" src="https://www.youtube.com/embed/FkfYYFNest8" allowfullscreen
               loading="lazy"></iframe>
@@ -330,6 +388,7 @@
             </p>
           </div>
 
+          <!-- Video 2 -->
           <div class="youtube-video-card">
             <iframe class="youtube-video-frame" src="https://www.youtube.com/embed/yilQsIC8Ryk" allowfullscreen
               loading="lazy"></iframe>
@@ -337,6 +396,7 @@
             <p class="youtube-video-desc">Minimally invasive arthroscopic solutions and aftercare tips.</p>
           </div>
 
+          <!-- Video 3 -->
           <div class="youtube-video-card">
             <iframe class="youtube-video-frame" src="https://www.youtube.com/embed/ZCuWvhuk6a4" allowfullscreen
               loading="lazy"></iframe>
@@ -344,181 +404,167 @@
             <p class="youtube-video-desc">What to expect before, during, and after knee replacement surgery.</p>
           </div>
 
+          <!-- Video 4 -->
           <div class="youtube-video-card">
             <iframe class="youtube-video-frame" src="https://www.youtube.com/embed/PNFFcErJBDk" allowfullscreen
               loading="lazy"></iframe>
             <p class="youtube-video-title">ACL Injury Management</p>
-            <p class="youtube-video-desc">From diagnosis to rehabilitation – how ACL injuries are treated.</p>
+            <p class="youtube-video-desc">From diagnosis to rehabilitation</p>
           </div>
-
-          <div class="youtube-video-card">
-            <iframe class="youtube-video-frame" src="https://www.youtube.com/embed/K81JJcpskO4" allowfullscreen
-              loading="lazy"></iframe>
-            <p class="youtube-video-title">Avoiding Cricket Injuries</p>
-            <p class="youtube-video-desc">Sports safety tips from Dr. Amit Sharma to avoid injuries on the field.</p>
-          </div>
-
-          <div class="youtube-video-card">
-            <iframe class="youtube-video-frame" src="https://www.youtube.com/embed/XGQWKovfi6Q" allowfullscreen
-              loading="lazy"></iframe>
-            <p class="youtube-video-title">Running Myths Busted</p>
-            <p class="youtube-video-desc">Debunking common running myths with orthopedic insights.</p>
-          </div>
-
         </div>
       </div>
     </div>
   </section>
+  <!--youtube video end section-->
 
-  <section class="youtube-joint-section" aria-labelledby="joint-health-heading">
-    <div class="youtube-joint-container">
-      <div>
-        <img src="/images/herobanner.webp" alt="Joint Health Illustration" class="youtube-joint-image" loading="lazy" />
+
+  <!--home content 5 section start here -->
+  <div id="joint-health-section">
+    <div id="joint-health-animation">
+      <div id="joint-circles">
+        <div id="circle-one"></div>
+        <div id="circle-two"></div>
       </div>
-      <div class="youtube-joint-text">
-        <h2 id="joint-health-heading">Why Is Joint Health Important?</h2>
-        <p>Healthy joints are the foundation of your body’s mobility and balance. Whether you're walking, climbing
-          stairs, or simply standing up, joints play a crucial role...</p>
-        <p>At <strong>Dr. Amit Sharma’s Orthopedic Clinic</strong>, we believe in proactive joint care. Our approach
-          combines advanced orthopedic diagnostics...</p>
-        <p>Whether you're recovering from an injury, struggling with chronic joint pain, or planning a joint
-          replacement, we’re here to support...</p>
-        <p>Don't wait for pain to stop your routine. Early consultation and proper orthopedic care can prevent complex
-          surgeries...</p>
-        <p>Joint health plays a vital role in maintaining overall mobility, flexibility, and quality of life. Healthy
-          joints allow us to perform daily activities like walking, climbing stairs, lifting objects, or
-          exercising—without pain or stiffness. As we age, joints can naturally wear down, leading to arthritis or
-          chronic discomfort.</p>
+
+      <div id="joint-health-container">
+        <div id="joint-health-row">
+          <div id="joint-health-content">
+            <div id="joint-health-title">
+              <h2>Why is Joint Health Important?</h2>
+              <p>
+                Maintaining optimal joint health is crucial for overall well-being and mobility. Healthy joints ensure
+                effortless movement, support daily activities, and prevent pain or discomfort. Explore our website for
+                expert advice on preserving joint function through comprehensive care and specialized treatments.
+              </p>
+            </div>
+
+            <div id="joint-health-services">
+              <div id="service-left">
+                <ul>
+                  <li>Orthopaedic Surgery</li>
+                  <li>Sports Medicine</li>
+                  <li>Physical Therapy</li>
+                </ul>
+              </div>
+              <div id="service-right">
+                <ul>
+                  <li>Nutrition and Lifestyle</li>
+                  <li>Pain Management</li>
+                  <li>Preventive Care</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="joint-health-image-wrapper">
+            <img src="./images/kneeman5.jpg" alt="Joint Health" id="joint-health-image">
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
-    <div class="youtube-services-section">
-      <h3 class="youtube-video-heading" style="text-align:center;color:#6b21a8;">Our Specialized Orthopedic Services
-      </h3>
-      <div class="youtube-services-grid">
-        <div class="youtube-service-card">ACL Reconstruction</div>
-        <div class="youtube-service-card">Knee & Hip Replacements</div>
-        <div class="youtube-service-card">Sports Injury Treatment</div>
-        <div class="youtube-service-card">Osteoporosis Treatment</div>
-        <div class="youtube-service-card">Arthritis Treatment</div>
-        <div class="youtube-service-card">Minimally Invasive Trauma Surgery</div>
-      </div>
-    </div>
-
-    <div class="youtube-why-section">
-      <div class="youtube-why-box">
-        <h3>Why Choose Dr. Amit Sharma?</h3>
-        <ul>
-          <li><strong>24+ Years of Orthopedic Experience:</strong> Trusted by thousands...</li>
-          <li><strong>50K+ Patients Treated:</strong> Successfully managed cases...</li>
-          <li><strong>Advanced Arthroscopy & Joint Replacement:</strong> Using minimally invasive techniques...</li>
-          <li><strong>In-House Imaging & Diagnostics:</strong> State-of-the-art equipment...</li>
-          <li><strong>Patient-Centered Care:</strong> Compassionate, multilingual staff...</li>
-          <li><strong>Quick Appointments & Tailored Treatment:</strong> Personalized orthopedic plans...</li>
-          <li><strong>Expert in Sports Injuries:</strong> Dedicated rehabilitation for athletes...</li>
-          <li><strong>Transparent & Ethical Practice:</strong> Honest diagnosis, no unnecessary procedures...</li>
-          <li><strong>Modern Infrastructure:</strong> Comfortable waiting areas, accessible location...</li>
-          <li><strong>Recognized by Medical Institutions:</strong> Regularly invited for conferences...</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- youtube content section end here -->
+  <!--home content 5 section end here -->
 
 
   <!--home crawsel section start here -->
-  <section class="testimonial-home-section" aria-labelledby="patient-testimonials" role="region">
-    <div class="testimonial-home-header">
-      <h2 id="patient-testimonials">What Our Patients Say</h2>
-      <p>
-        Hear inspiring recovery stories from our patients at Dr. Amit Sharma’s orthopedic clinic.
-      </p>
-    </div>
-
-    <div class="testimonial-home-card">
-      <div class="testimonial-home-content">
-        <div class="testimonial-home-image-wrapper">
-          <img id="testimonial-image" src="/images/paitent1.webp" alt="Tendon surgery recovery" width="128"
-            height="128" />
+  <section id="testimonial-section-long-unique">
+    <div id="testimonial-container-unique">
+      <h3 id="testimonial-heading-unique">Our Happy Patients</h3>
+      <div class="swiper mySwiper" id="testimonial-swiper-unique">
+        <div class="swiper-wrapper">
+          <!-- Slides will be injected dynamically via JS -->
         </div>
-        <p id="testimonial-name" class="testimonial-home-name">Mahender Rajput</p>
-        <p id="testimonial-alt" class="testimonial-home-alt">“Tendon surgery recovery.”</p>
-      </div>
-
-      <div class="testimonial-home-navigation">
-        <button onclick="goToPrev()" aria-label="Previous testimonial">← Previous</button>
-        <button onclick="goToNext()" aria-label="Next testimonial">Next →</button>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
-    <div class="testimonial-home-indicators" id="testimonial-indicators"></div>
   </section>
+
+
+
   <!--home crawsel section end here -->
 
   <!--home blog  section start here -->
-  <!-- Stats Section -->
-  <section class="home-blog-stats-section">
-    <div class="home-blog-stats-container">
-      <div class="home-blog-stat-item">
-        <p class="home-blog-stat-value">8K+</p>
-        <p class="home-blog-stat-label">Successful Joint Replacements</p>
-      </div>
-      <div class="home-blog-stat-item">
-        <p class="home-blog-stat-value">50K+</p>
-        <p class="home-blog-stat-label">Satisfied Operated Patients</p>
-      </div>
-      <div class="home-blog-stat-item">
-        <p class="home-blog-stat-value">24+</p>
-        <p class="home-blog-stat-label">Years of Experience</p>
-      </div>
-    </div>
-  </section>
 
   <!-- Blog Section -->
-  <section class="home-blog-blog-section">
-    <div class="home-blog-container">
-      <h2 class="home-blog-heading">Latest Orthopedic Blogs</h2>
-      <div class="home-blog-grid">
-        <!-- Blog Cards Rendered by JS -->
+  <div class="blog-section-wrapper">
+    <div class="blog-section-container">
+      <div class="blog-section-title">
+        <h2 class="blog-section-heading">Blogs</h2>
+      </div>
+
+      <div class="blog-cards-row">
+        <!-- Blog 1 -->
+        <div class="blog-card">
+          <div class="blog-img-wrapper">
+            <img src="./images/bloghome3.jpg" alt="Knee Joint" class="blog-img" />
+            <div class="blog-date">15 July, 2024</div>
+          </div>
+          <h2 class="blog-title">How Your Knees Can Make or Break You</h2>
+          <p class="blog-desc">The knee joint is one of the most complex structures in the human body. A hinge joint,
+            its
+            functionality goes beyond simple back-and-forth movement. It supports nearly the entire body weight and
+            allows a
+            wide range of motion, essential for walking, running, jumping, and climbing stairs.</p>
+          <div class="blog-readmore"><a href="blog.html">read more</a></div>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="blog-card">
+          <div class="blog-img-wrapper">
+            <img src="./images/blohgome2.jpg" alt="Knee Transplant" class="blog-img" />
+            <div class="blog-date">22 July, 2024</div>
+          </div>
+          <h2 class="blog-title">Speeding Up Recovery After a Knee Transplant</h2>
+          <p class="blog-desc">A knee transplant surgery can significantly improve your quality of life by reducing pain
+            and
+            enhancing mobility. With the right rehabilitation techniques, physical therapy, and diet, patients can speed
+            up
+            recovery and regain function faster than ever before.</p>
+          <div class="blog-readmore"><a href="blog.html">read more</a></div>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="blog-card">
+          <div class="blog-img-wrapper">
+            <img src="./images/bloghome.jpg" alt="Osteoporosis" class="blog-img" />
+            <div class="blog-date">23 July, 2024</div>
+          </div>
+          <h2 class="blog-title">Osteoporosis in Men: A Neglected Problem</h2>
+          <p class="blog-desc">Osteoporosis is a condition that causes bones to become weak and making them break more
+            easily than
+            normal bones. It often goes unnoticed in men, but with early diagnosis and the right treatment, the
+            progression
+            can be slowed, improving long-term bone health.</p>
+          <div class="blog-readmore"><a href="blog.html">read more</a></div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+
 
   <!--home blog  section end here -->
 
   <!-- first content section start  6 -->
-  <section class="knee-section" aria-labelledby="knee-health-heading">
-    <div class="knee-container">
-      <!-- Image Block -->
-      <div class="knee-image">
-        <picture>
-          <source srcset="images/kneepan3.webp" type="image/webp" />
-          <img src="images/kneepan3.webp" alt="Dr. Amit Sharma's knee pain assessment" width="500" height="600"
-            loading="eager" decoding="async" />
-        </picture>
-      </div>
-
-      <!-- Text Block -->
-      <div class="knee-text">
-        <h2 id="knee-health-heading">Unsure About Orthopedic Doctor Nearby?</h2>
-        <p>
-          Constant knee pain affecting your mobility? You’re not alone—and it's not just about aging.
-          Every year, thousands of individuals—young athletes, professionals, and elderly citizens—
-          struggle with persistent knee problems that silently impact their quality of life. The knee
-          is one of the most important joints in the human body, enabling motion, flexibility, and balance.
-          <span class="highlight"> So don’t wait for the pain to control your life.</span>
-          Take our simple, clinically-backed knee evaluation today and find out if surgery is necessary,
-          or if there’s a better, less invasive path that can restore your knee strength and flexibility.
-        </p>
-        <a href="/knee-replacement" class="knee-button"
-          aria-label="Check your knee health and learn more about treatment options">
-          Check Your Knee Health
-        </a>
-      </div>
+<section class="surgery-mybanner">
+  <div class="surgery-overlay"></div>
+  <div class="surgery-container">
+    <div class="surgery-content">
+      <h2 class="surgery-heading">Do you Need Surgery?</h2>
+      <p class="surgery-text">
+        Are you a candidate for Knee Surgery? To find out, check your
+        <span class="highlight">knee score</span> today.
+      </p>
+      <a href="surgery-check" class="surgery-btn">Check Now</a>
     </div>
-  </section>
-  <!-- first content section end 6-->
-  <!-- home contact section start here -->
+  </div>
+</section>
 
+
+  <!--last section with form-->
+
+
+  <!-- home contact section start here -->
   <section class="home-contact-section" aria-labelledby="contact-title">
     <!-- Contact Form -->
     <div class="home-contact-form-wrapper">
@@ -562,7 +608,6 @@
             replacement surgery.
           </p>
           <a href="about.html" class="footer-page__readmore">Read More About Dr. Sharma</a>
-
           <div class="footer-page__social">
             <a href="https://www.facebook.com/profile?id=61560396193559" target="_blank" title="Facebook"
               aria-label="Facebook">
@@ -637,8 +682,7 @@
     </div>
   </footer>
   <!-- footer working end  here -->
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="app.js"></script>
 </body>
 
