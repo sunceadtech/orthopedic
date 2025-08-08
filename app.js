@@ -71,31 +71,31 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       icon: "./images/testicon.png",
       text: "I have been suffering from osteoarthritis for the last 7-8 years... He is very caring. He checks on his patient 2-3 times a day. It has been a great experience.",
-      image: "./images/geeta.jpg",
+      image: "./images/geeta.webp",
       name: "Geeta Devi (Patna)"
     },
     {
       icon: "./images/testicon.png",
       text: "I had an injury in my tendon during my exercise... Thanks to Dr. Amit for everything he has done for me.",
-      image: "./images/mahendra.jpg",
+      image: "./images/mahendra.webp",
       name: "Mahender Rajput"
     },
     {
       icon: "./images/testicon.png",
       text: "I had pain in both my knees for many years... The hospital food was also very good.",
-      image: "./images/pushp.jpg",
+      image: "./images/pushp.webp",
       name: "Pushpata Garg"
     },
     {
       icon: "./images/testicon.png",
       text: "I got my left knee replacement done recently and I am very satisfied. My pain is gone.",
-      image: "./images/premlate.jpg",
+      image: "./images/premlate.webp",
       name: "Mrs Premlata"
     },
     {
       icon: "./images/testicon.png",
       text: "I was having problems walking. My pain has reduced and now I can walk. The doctor is very good-natured and caring.",
-      image: "./images/Ramvati.jpg",
+      image: "./images/Ramvati.webp",
       name: "Ramavati"
     }
   ];
@@ -140,31 +140,31 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       icon: "./images/testicon.png",
       text: "I have been suffering from osteoarthritis for the last 7-8 years... He is very caring. He checks on his patient 2-3 times a day. It has been a great experience.",
-      image: "./images/geeta.jpg",
+      image: "./images/geeta.webp",
       name: "Geeta Devi (Patna)"
     },
     {
       icon: "./images/testicon.png",
       text: "I had an injury in my tendon during my exercise... Thanks to Dr. Amit for everything he has done for me.",
-      image: "./images/mahendra.jpg",
+      image: "./images/mahendra.webp",
       name: "Mahender Rajput"
     },
     {
       icon: "./images/testicon.png",
       text: "I had pain in both my knees for many years... The hospital food was also very good.",
-      image: "./images/pushp.jpg",
+      image: "./images/pushp.webp",
       name: "Pushpata Garg"
     },
     {
       icon: "./images/testicon.png",
       text: "I got my left knee replacement done recently and I am very satisfied. My pain is gone.",
-      image: "./images/premlate.jpg",
+      image: "./images/premlate.webp",
       name: "Mrs Premlata"
     },
     {
       icon: "./images/testicon.png",
       text: "I was having problems walking. My pain has reduced and now I can walk. The doctor is very good-natured and caring.",
-      image: "./images/Ramvati.jpg",
+      image: "./images/Ramvati.webp",
       name: "Ramavati"
     }
   ];

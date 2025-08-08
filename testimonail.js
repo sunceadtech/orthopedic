@@ -1,7 +1,7 @@
 const testimonials = [
   {
     name: "Geeta Devi (Patna)",
-    image: "/images/geeta.jpg",
+    image: "/images/geeta.webp",
     title: "Osteoarthritis Treatment",
     description:
       "I have been suffering from osteoarthritis for the last 7-8 years. Dr. Amit is very caring — he checks on his patient 2-3 times a day. It has been a great experience.",

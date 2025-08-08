@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Orthopedic surgery</title>
-    <link rel="stylesheet" href="experties.css">
+    <title>Document</title>
     <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="orthopdic.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-...your-integrity..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
+
     <div class="top-bar">
         <div class="top-bar-container">
             <!-- Contact Info -->
@@ -49,7 +52,7 @@
 
                     <li class="dropdown">
                         <div class="dropdown-toggle">
-                            Our Experties
+                            Our Expertise
                             <i class="fas fa-chevron-down" id="dropicon"></i>
                         </div>
                         <ul class="dropdown-menu">
@@ -57,21 +60,21 @@
                                 <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
                             </li>
                             <li>
-                                <a href="/hip-replacement.html">Hip Replacement Surgeon</a>
+                                <a href="hip-replacement.html">Hip Replacement Surgeon</a>
                             </li>
-                            <li><a href="/arthroscopy.html">Arthroscopy Procedure</a></li>
+                            <li><a href="arthroscopy.html">Arthroscopy Procedure</a></li>
                             <li>
-                                <a href="/acl-reconstruction.html">ACL Reconstruction</a>
-                            </li>
-                            <li>
-                                <a href="/sports-injury.html">Sports Injury Management</a>
-                            </li>
-                            <li><a href="/arthritis.html">Arthritis Treatment</a></li>
-                            <li>
-                                <a href="/osteoporosis.html">Osteoporosis Management</a>
+                                <a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a>
                             </li>
                             <li>
-                                <a href="/minimal-invasive-complex-trauma-surgery.html">Minimally Invasive Trauma</a>
+                                <a href="sports-injury.html">Sports Injury Management</a>
+                            </li>
+                            <li><a href="arthritis.html">Arthritis Treatment</a></li>
+                            <li>
+                                <a href="osteoporosis.html">Osteoporosis Management</a>
+                            </li>
+                            <li>
+                                <a href="minimal-invasive-complex-trauma-surgery.html">Minimally Invasive Trauma</a>
                             </li>
                         </ul>
                     </li>
@@ -100,25 +103,25 @@
         <!-- Mobile Nav -->
         <nav class="mobile-nav" id="mobile-nav">
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
 
                 <details>
                     <summary>Our Expertise</summary>
                     <ul>
                         <li>
-                            <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
+                            <a href="knee-replacement.html">Knee Replacement Surgeon</a>
                         </li>
                         <li>
-                            <a href="/hip-replacement.html">Hip Replacement Surgeon</a>
+                            <a href="hip-replacement.html">Hip Replacement Surgeon</a>
                         </li>
-                        <li><a href="/arthroscopy.html">Arthroscopy Procedure</a></li>
-                        <li><a href="/acl-reconstruction.html">ACL Reconstruction</a></li>
+                        <li><a href="arthroscopy.html">Arthroscopy Procedure</a></li>
+                        <li><a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a></li>
                         <li>
-                            <a href="/sports-injury.html">Sports Injury Management</a>
+                            <a href="sports-injury.html">Sports Injury Management</a>
                         </li>
-                        <li><a href="/arthritis.html">Arthritis Treatment</a></li>
-                        <li><a href="/osteoporosis.html">Osteoporosis Management</a></li>
+                        <li><a href="arthritis.html">Arthritis Treatment</a></li>
+                        <li><a href="osteoporosis.html">Osteoporosis Management</a></li>
                         <li>
                             <a href="/minimal-invasive-complex-trauma-surgery.html">Minimally Invasive Trauma
                                 Surgery</a>
@@ -137,118 +140,143 @@
             </ul>
         </nav>
     </header>
-    <!--main page service -->
+
     <header class="about-main-section">
         <div class="hero-image">
-            <img src="/images/heromain.webp" alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad" width="1920"
+            <img src="/images/paitentinfo.webp" alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad" width="1920"
                 height="500" />
             <div class="overlay"></div>
             <div class="hero-text">
                 <h1>
-                    Our Expertise
+                    What to do and what not to do after you sprain your ankle!
                 </h1>
                 <nav class="breadcrumb">
-                    <a href="index.html">Home</a>
-                    <span class="chevron">></span>
-                    <span class="current">Our Experties</span>
+                    <a href="index.html" style="text-transform: uppercase;">HOME</a>
+                    <span class="chevron">></span><a href="services.html" class="chevron"
+                        style="text-decoration: none;text-transform: uppercase;">services></a>
+                    <span class="current" style="text-transform: uppercase;">What to do and what not to do after you
+                        sprain your ankle!</span>
                 </nav>
             </div>
         </div>
     </header>
-    <!--main page service -->
-    <div id="main-service-page-card">
-        <div id="main-service-section">
-            <h2>Expert Care for Every Step You Take</h2>
-            <p>We are dedicated to restoring your mobility and enhancing your quality of life with personalised
-                treatment plans and advanced surgical techniques</p>
-        </div>
 
-        <div id="cards-div">
-            <div class="main-cards-display">
-                <img src="./images/knee2.webp" alt="Knee Replacement">
-                <h3>Knee Replacement</h3>
-                <p>Knee replacement surgery, also known as knee arthroplasty, is a common orthopedic procedure.</p>
-            </div>
+    <!--blog main section content here-->
 
-            <div class="main-cards-display">
-                <img src="./images/hip.webp" alt="Hip Replacement">
-                <h3>Hip Replacement</h3>
-                <p>Hip replacement surgery, also known as hip arthroplasty, is a common procedure performed to relieve
-                    pain.</p>
-            </div>
+    <div class="blog-container" id="blog-container-main-wrapper">
+        <div class="row" id="blog-flex-layout-row">
 
-            <div class="main-cards-display">
-                <img src="./images/service-experties2.webp" alt="Arthroscopy">
-                <h3>Arthroscopy</h3>
-                <p>Arthroscopy is a minimally invasive surgical procedure used to diagnose and treat joint problems.</p>
-            </div>
+            <!-- Main Blog Content -->
+            <div class="main-content" id="main-blog-post-content-area">
+                <img src="./images/blog2.webp" alt="Joint Health" class="blog-image" id="main-blog-post-image">
 
-            <div class="main-cards-display">
-                <img src="./images/service-experties-3.webp" alt="ACL and PCL Reconstruction">
-                <h3>ACL and PCL Reconstruction</h3>
-                <p>Anterior Cruciate Ligament (ACL) and Posterior Cruciate Ligament (PCL) reconstructions are critical
-                    surgeries.</p>
-            </div>
+                <div class="blog-meta" id="blog-author-and-date-meta">
+                    <p id="blog-post-author-info"><i class="fa fa-user"></i> By: Dr. Amit Sharma</p>
+                    <p id="blog-post-date-info"><i class="fa fa-calendar"></i> 06-Nov-2024</p>
+                </div>
+                <h1 class="blog-title" id="main-blog-post-title">What to do and what not to do after you sprain your
+                    ankle!
+                </h1>
+                <div class="blog-content" id="main-blog-post-content-body">
+                    <p>A sprained ankle is one of the most common injuries I see in my OPD. It often occurs during
+                        sports or if someone missteps on uneven ground or stairs. Medically, in the case of a sprained
+                        ankle, the ligaments that support the ankle are stretched beyond their limits or torn. So,
+                        proper care immediately after the injury is crucial to promote healing and prevent further
+                        damage.</p>
 
-            <div class="main-cards-display">
-                <img src="./images/service-experties-5.webp" alt="Sports Injury">
-                <h3>Sports Injury</h3>
-                <p>Sports injuries are a common occurrence among athletes of all levels, often requiring specialized
-                    care for full recovery.</p>
-            </div>
+                    <p>Based on my observations, I am writing a few points on what you should do and what you should not
+                        do when you sprain your ankle.</p>
 
-            <div class="main-cards-display">
-                <img src="./images/service-experties-8.webp" alt="Arthritis">
-                <h3>Arthritis</h3>
-                <p>Arthritis refers to a group of conditions characterized by inflammation and stiffness in joints.</p>
-            </div>
+                    <h3>1. Follow the P.R.I.C.E Protocol</h3>
+                    <p>The P.R.I.C.E (Protection, Rest, Ice, Compression, Elevation) method is the gold standard for
+                        treating a sprained ankle in the initial stages. It is commonly seen that people prefer hot
+                        compressions when they injure their ankles. That should not be done.</p>
+                    <ul>
+                        <li><strong>Protection:</strong> Protect the injury from further injury with the help of a
+                            splint, brace, or crutches.</li>
+                        <li><strong>Rest:</strong> Immediately stop any activity that puts pressure on your ankle. Avoid
+                            walking or putting weight on it to prevent further injury.</li>
+                        <li><strong>Ice:</strong> Apply an ice pack or cold compress for 15–20 minutes every 1–2 hours
+                            during the first 48 hours.</li>
+                        <li><strong>Compression:</strong> Wrap the ankle with an elastic bandage to minimise swelling,
+                            but not too tight.</li>
+                        <li><strong>Elevation:</strong> Keep your ankle elevated above heart level to reduce swelling.
+                        </li>
+                    </ul>
 
-            <div class="main-cards-display">
-                <img src="./images/osteo.webp" alt="Osteoporosis">
-                <h3>Osteoporosis</h3>
-                <p>Osteoporosis is a common bone disease characterized by low bone mass and deterioration of bone
-                    tissue.</p>
+                    <h3>2. Don’t apply heat compressions immediately</h3>
+                    <p>While heat can be beneficial later, applying it too soon can increase swelling and inflammation.
+                        Stick to ice during the first 48 hours post-injury.</p>
+
+                    <h3>3. You can take pain relievers</h3>
+                    <p>Simple anti-inflammatory medicines such as ibuprofen or acetaminophen can help manage pain and
+                        reduce inflammation. Always consult your doctor before starting new medicines.</p>
+
+                    <h3>4. Use support to walk</h3>
+                    <p>If putting weight on your ankle is painful, use crutches, a walking stick, or an ankle brace for
+                        stability.</p>
+
+                    <h3>5. Don’t be in a hurry to get back to normal activities</h3>
+                    <p>Even after swelling reduces, avoid rushing into normal routines. Gentle range-of-motion exercises
+                        under a doctor’s supervision are recommended.</p>
+
+                    <h3>6. Seek medical help</h3>
+                    <p>If you notice severe swelling, bruising, inability to bear weight, or worsening pain, see a
+                        doctor immediately to rule out fractures or serious injury.</p>
+
+                    <h3>7. Don’t wrap the ankle too tightly</h3>
+                    <p>While compression is important, over-tight wrapping can cut off blood circulation. If toes turn
+                        blue, numb, or cold, loosen the wrap.</p>
+                </div>
+
             </div>
-            <div class="main-cards-display">
-                <img src="./images/service-experties-7.webp" alt="Minimal Invasive Complex Trauma Surgery">
-                <h3>Minimal Invasive Complex Trauma Surgery</h3>
-                <p>MIS has emerged as a transformative approach in orthopedic trauma care.</p>
-            </div>
+            <!-- Sidebar -->
+            <aside class="sidebar" id="recent-news-sidebar">
+                <div class="recent-posts" id="recent-news-wrapper">
+                    <h5 id="recent-news-heading">Recent News</h5>
+
+                    <div class="recent-post" id="recent-post-1">
+                        <a href="knee-replacement.html">
+                            How Your Knees Can Make or Break You
+                        </a>
+                        <span id="recent-post-date-1">15-Jul-2024</span>
+                    </div>
+
+                    <div class="recent-post" id="recent-post-2">
+                        <a href="hip-replacement.html">
+                            Speeding Up Recovery After a Knee Replacement
+                        </a>
+                        <span id="recent-post-date-2">23-Aug-2024</span>
+                    </div>
+
+                    <div class="recent-post" id="recent-post-3">
+                        <a href="osteoporosis.html">
+                            Osteoporosis in Men, a neglected & underreported problem
+                        </a>
+                        <span id="recent-post-date-3">23-Jul-2024</span>
+                    </div>
+
+                    <div class="recent-post" id="recent-post-4">
+                        <a href="knee-replacement.html">
+                            What to do and what not to do after you sprain your ankle!
+                        </a>
+                        <span id="recent-post-date-4">09-Sep-2024</span>
+                    </div>
+
+                    <div class="recent-post" id="recent-post-5">
+                        <a href="services.html">
+                            Joint Ventures: How to Keep Your Bones Strong and Flexible!
+                        </a>
+                        <span id="recent-post-date-5">06-Nov-2024</span>
+                    </div>
+                </div>
+            </aside>
+
         </div>
     </div>
 
-    <div id="service-form-card-section">
-        <div id="left-main-between">
-            <img src="./images/service-main.webp" alt="service-image">
-        </div>
+    <!--blog main section content here-->
 
-        <div id="right-main-between">
-            <form id="appointmentForm" class="requestForm">
-                <h3 class="form-heading">Request a <span>Consultation</span></h3>
-                <div class="form-row">
-                    <input class="simple-input" type="text" placeholder="Full Name" name="name" required>
-                    <input class="simple-input" type="email" placeholder="Email" name="email" required>
-                </div>
-                <div class="form-row">
-                    <input class="simple-input" type="text" placeholder="Phone" name="phone" required>
-                    <select class="simple-input" name="serviceType" required>
-                        <option disabled selected value="">Service Type</option>
-                        <option>Knee Replacement</option>
-                        <option>Hip Replacement</option>
-                        <option>Arthroscopy</option>
-                        <option>ACL & PCL Reconstruction</option>
-                        <option>Sports Injury</option>
-                        <option>Arthritis</option>
-                        <option>Osteoporosis</option>
-                        <option>Minimal Invasive Complex Trauma Surgery</option>
-                    </select>
-                </div>
-                <textarea class="simple-input full-width" placeholder="Special Request" name="message"></textarea>
-                <button type="submit" class="submit-button">Submit Now</button>
-            </form>
-
-        </div>
-    </div>
     <!-- footer working  start here -->
     <!-- footer working  start here -->
     <footer class="footer-page bg-gray-900 text-white pt-12 pb-6 text-sm leading-relaxed">
@@ -346,7 +374,6 @@
         </div>
     </footer>
     <!-- footer working end  here -->
-    <script src="experties.js"></script>
     <script src="app.js"></script>
 </body>
 

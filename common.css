@@ -3,7 +3,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
+/* Scrollbar Styling for Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px; /* scrollbar की चौड़ाई */
+}
+
+::-webkit-scrollbar-track {
+  background: #fff; /* हल्का बैकग्राउंड */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:  #cc88cc; /* purple color */
+  border-radius: 10px;
+  border: 2px solid #f3e6ff; /* हल्की बॉर्डर */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:  #cc88cc; /* hover पर गहरा purple */
+}
+
+/* Smooth Scroll Effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Firefox scrollbar styling */
+* {
+  scrollbar-width: thin; /* पतला scrollbar */
+  scrollbar-color:  #cc88cc #f3e6ff; /* thumb color | track color */
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -190,7 +222,6 @@ body {
   color: #ffffff;
 }
 
-
 /* ========== Hamburger Menu Button ========== */
 .menu-toggle {
   background: none;
@@ -373,6 +404,8 @@ body {
 .footer-page__description {
   color: #ffffff;
   cursor: pointer;
+  font-size: 0.9rem;
+  opacity: 0.9;
   margin-bottom: 0.5rem;
 }
 .footer-page__readmore {
@@ -432,12 +465,20 @@ body {
   list-style: none;
   padding: 0;
 }
+.demo-change a {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.demo-unchange a {
+  font-size: 1rem;
+}
 .footer-page__nav li {
   margin-bottom: 0.5rem;
 }
 .footer-page__nav a {
   color: #d1d5db; /* text-gray-300 */
   text-decoration: none;
+  text-align: center;
   position: relative;
   transition: color 0.3s ease;
 }
@@ -468,6 +509,9 @@ body {
 .footer-page__clinic {
   margin-bottom: 1rem;
 }
+.footer-page__clinic p strong {
+  font-size: 0.9rem;
+}
 .footer-page__clinic ul {
   color: #d1d5db;
   margin: 0.25rem 0;
@@ -475,12 +519,15 @@ body {
   list-style: none;
 }
 .footer-page__phone {
-  color: #d8b4fe; /* purple-300 */
+  color: #fff; /* purple-300 */
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-
+.footer-page__phone a {
+  color: plum;
+  text-decoration: none;
+}
 /* Bottom Footer */
 .footer-page__bottom {
   border-top: 1px solid #374151; /* gray-700 */
@@ -576,6 +623,7 @@ body {
   color: #c084fc; /* purple-400 */
   position: relative;
   display: inline-block;
+  text-decoration: none;
   margin-top: 0.5rem;
 }
 .footer-page__readmore::after {
@@ -706,8 +754,6 @@ body {
 /*footer page end here */
 
 /*crawsel section here*/
-
-
 
 /*testimonal css start here */
 #testimonial-section-long-unique {

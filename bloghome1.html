@@ -1,242 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="orthopdic.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="orthopdic.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     integrity="sha512-...your-integrity..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
 
-     <div class="top-bar">
-        <div class="top-bar-container">
-            <!-- Contact Info -->
-            <div class="contact-info">
-                <div class="info-item">
-                    <i class="fas fa-phone"></i>
-                    <span>+91-8750056560 / 8826629486</span>
-                    <i class="fas fa-envelope" id="email-icon"></i>
-                    <span>amit9851@yahoo.com</span>
-                </div>
-            </div>
-            <!-- Social Icons -->
-            <div class="social-icons">
-                <a href="https://www.facebook.com/profile?id=61560396193559" target="_blank"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/amit-sharma-175232a4/" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/amit9851" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
+
+  <div class="top-bar">
+    <div class="top-bar-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <span>+91-8750056560 / 8826629486</span>
+          <i class="fas fa-envelope" id="email-icon"></i>
+          <span>amit9851@yahoo.com</span>
         </div>
-    </div>
-    <!--navbar code here-->
-    <header class="navbar">
-        <div class="container nav-inner">
-            <!-- Logo -->
-            <a href="/index.html" class="logo" aria-label="Homepage - Dr. Amit Sharma">
-                <img src="images/logo.png" alt="Best Orthopedic Surgeon in Delhi" />
-            </a>
-
-            <!-- Desktop Nav -->
-            <nav class="desktop-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="dropdown">
-                        <div class="dropdown-toggle">
-                            Our Experties
-                            <i class="fas fa-chevron-down" id="dropicon"></i>
-                        </div>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="knee-replacement.html">Knee Replacement Surgeon</a>
-                            </li>
-                            <li>
-                                <a href="hip-replacement.html">Hip Replacement Surgeon</a>
-                            </li>
-                            <li><a href="arthroscopy.html">Arthroscopy Procedure</a></li>
-                            <li>
-                                <a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a>
-                            </li>
-                            <li>
-                                <a href="sports-injury.html">Sports Injury Management</a>
-                            </li>
-                            <li><a href="arthritis.html">Arthritis Treatment</a></li>
-                            <li>
-                                <a href="osteoporosis.html">Osteoporosis Management</a>
-                            </li>
-                            <li>
-                                <a href="minimal-invasive-complex-trauma-surgery.html">Minimally Invasive Trauma</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown">
-                        <div class="dropdown-toggle">
-                            Patient resource <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <ul class="dropdown-menu">
-                            <li><a href="testimonial.html">Patient Testimonials</a></li>
-                            <li><a href="patientinfo.html">Patient Information</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="/blog.html">Health Blogs</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-
-            <!-- Hamburger for Mobile -->
-            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-
-        <!-- Mobile Nav -->
-        <nav class="mobile-nav" id="mobile-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-
-                <details>
-                    <summary>Our Experties</summary>
-                    <ul>
-                        <li>
-                            <a href="knee-replacement.html">Knee Replacement Surgeon</a>
-                        </li>
-                        <li>
-                            <a href="hip-replacement.html">Hip Replacement Surgeon</a>
-                        </li>
-                        <li><a href="arthroscopy.html">Arthroscopy Procedure</a></li>
-                        <li><a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a></li>
-                        <li>
-                            <a href="sports-injury.html">Sports Injury Management</a>
-                        </li>
-                        <li><a href="arthritis.html">Arthritis Treatment</a></li>
-                        <li><a href="osteoporosis.html">Osteoporosis Management</a></li>
-                        <li>
-                            <a href="minimal-invasive-complex-trauma-surgery.html">Minimally Invasive Trauma
-                                Surgery</a>
-                        </li>
-                    </ul>
-                </details>
-                <details>
-                    <summary>Patient Resources</summary>
-                    <ul>
-                        <li><a href="testimonial.html">Patient Testimonials</a></li>
-                        <li><a href="patientinfo.html">Patient Information</a></li>
-                    </ul>
-                </details>
-                <li><a href="blog.html">Health Blogs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-<header class="about-main-section">
-        <div class="hero-image">
-            <img src="/images/paitentinfo.webp" alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad" width="1920"
-                height="500" />
-            <div class="overlay"></div>
-            <div class="hero-text">
-                <h1>
-                    Joint Ventures: How to Keep Your Bones Strong and Flexible!
-                </h1>
-                <nav class="breadcrumb">
-                    <a href="index.html" style="text-transform: uppercase;">HOME</a>
-                    <span class="chevron">></span><a href="services.html" class="chevron"
-                        style="text-decoration: none;text-transform: uppercase;">services></a>
-                    <span class="current" style="text-transform: uppercase;">Joint Ventures: How to Keep Your Bones Strong and Flexible!</span>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-<!--blog main section content here-->
-
-<div class="blog-container" id="blog-container-main-wrapper">
-  <div class="row" id="blog-flex-layout-row">
-
-    <!-- Main Blog Content -->
-    <div class="main-content" id="main-blog-post-content-area">
-      <img src="./images/join-health.png" alt="Joint Health" class="blog-image" id="main-blog-post-image">
-
-      <div class="blog-meta" id="blog-author-and-date-meta">
-        <p id="blog-post-author-info"><i class="fa fa-user"></i> By: Dr. Amit Sharma</p>
-        <p id="blog-post-date-info"><i class="fa fa-calendar"></i> 06-Nov-2024</p>
       </div>
-      <h1 class="blog-title" id="main-blog-post-title">Joint Ventures: How to Keep Your Bones Strong and Flexible!</h1>
-      <div class="blog-content" id="main-blog-post-content-body">
-        <p id="blog-paragraph-intro">Your bone and joint health is fundamental to a healthy and happy life, as it helps you stay agile, active and independent. These essential components of our musculoskeletal system provide structure, support, movement, and protection for vital organs.</p>
-
-        <p id="blog-paragraph-lifestyle">I wonder why people are so careless when ensuring their well-being is so easy. Good nutrition, strengthening exercises, and a disciplined lifestyle can go a long way.</p>
-
-        <p id="blog-paragraph-childhood">The foundation for strong bones is laid during childhood. Calcium and vitamin D from dairy, leafy greens, fish, and fortified cereals, along with protein and micronutrients like magnesium and vitamin K, are vital.</p>
-
-        <p id="blog-paragraph-exercise">Exercise plays a critical role in maintaining bone density and flexibility. Weight-bearing exercises like walking, jogging, and resistance training help bones grow stronger. Yoga and swimming improve flexibility with minimal joint stress.</p>
-
-        <p class="highlight" id="blog-paragraph-highlighted-quote">I believe that everyone, at every phase of life, should strive to maintain mobility. Even as you age, when your knee or hip joints may require intervention, your muscle strength helps you recover faster.</p>
-
-        <p id="blog-paragraph-mobility-weight">Mobility also helps maintain a healthy weight, which reduces pressure on joints. Excess body weight increases the risk of osteoarthritis and joint wear over time.</p>
-
-        <p id="blog-paragraph-lifestyle-habits">Smoking and heavy alcohol consumption reduce bone health. Smoking affects calcium absorption, and alcohol disrupts nutrient balance. Quit smoking and moderate alcohol to support long-term joint health.</p>
-
-        <p id="blog-paragraph-vitaminD">Despite the strong sun in India, vitamin D deficiency is common. Regular checks for bone density and vitamin levels are essential.</p>
-
-        <p id="blog-paragraph-prevention">Preventive care today can help you enjoy mobility, strength, and independence throughout life.</p>
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile?id=61560396193559" target="_blank"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/amit-sharma-175232a4/" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/amit9851" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
-    <!-- Sidebar -->
-    <aside class="sidebar" id="recent-news-sidebar">
-      <div class="recent-posts" id="recent-news-wrapper">
-        <h5 id="recent-news-heading">Recent News</h5>
-
-        <div class="recent-post" id="recent-post-1">
-          <a href="https://www.dramitsharma.info/news/view/how-your-knees-can-make-or-break-you">
-            How Your Knees Can Make or Break You
-          </a>
-          <span id="recent-post-date-1">15-Jul-2024</span>
-        </div>
-
-        <div class="recent-post" id="recent-post-2">
-          <a href="https://www.dramitsharma.info/news/view/speeding-up-recovery-after-a-knee-transplant">
-            Speeding Up Recovery After a Knee Replacement
-          </a>
-          <span id="recent-post-date-2">23-Aug-2024</span>
-        </div>
-
-        <div class="recent-post" id="recent-post-3">
-          <a href="https://www.dramitsharma.info/news/view/osteoporosis-in-men-a-neglected-underreported-problem">
-            Osteoporosis in Men, a Neglected & Underreported Problem
-          </a>
-          <span id="recent-post-date-3">23-Jul-2024</span>
-        </div>
-
-        <div class="recent-post" id="recent-post-4">
-          <a href="https://www.dramitsharma.info/news/view/what-to-do-and-what-not-to-do-after-you-sprain-your-ankle">
-            What to Do After You Sprain Your Ankle
-          </a>
-          <span id="recent-post-date-4">09-Sep-2024</span>
-        </div>
-
-        <div class="recent-post" id="recent-post-5">
-          <a href="https://www.dramitsharma.info/news/view/joint-ventures-how-to-keep-your-bones-strong-and-flexible">
-            Joint Ventures: How to Keep Your Bones Strong and Flexible!
-          </a>
-          <span id="recent-post-date-5">06-Nov-2024</span>
-        </div>
-      </div>
-    </aside>
   </div>
-</div>
+  <!--navbar code here-->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <!-- Logo -->
+      <a href="/index.html" class="logo" aria-label="Homepage - Dr. Amit Sharma">
+        <img src="images/logo.png" alt="Best Orthopedic Surgeon in Delhi" />
+      </a>
 
-<!--blog main section content here-->
-    
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+
+          <li class="dropdown">
+            <div class="dropdown-toggle">
+              Our Expertise
+              <i class="fas fa-chevron-down" id="dropicon"></i>
+            </div>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
+              </li>
+              <li>
+                <a href="hip-replacement.html">Hip Replacement Surgeon</a>
+              </li>
+              <li><a href="arthroscopy.html">Arthroscopy Procedure</a></li>
+              <li>
+                <a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a>
+              </li>
+              <li>
+                <a href="sports-injury.html">Sports Injury Management</a>
+              </li>
+              <li><a href="arthritis.html">Arthritis Treatment</a></li>
+              <li>
+                <a href="osteoporosis.html">Osteoporosis Management</a>
+              </li>
+              <li>
+                <a href="minimal-invasive-complex-trauma-surgery.html">Minimally Invasive Trauma</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <div class="dropdown-toggle">
+              Patient resource <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul class="dropdown-menu">
+              <li><a href="/testimonial.html">Patient Testimonials</a></li>
+              <li><a href="/patientinfo.html">Patient Information</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/blog.html">Health Blogs</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger for Mobile -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav" id="mobile-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+
+        <details>
+          <summary>Our Expertise</summary>
+          <ul>
+            <li>
+              <a href="knee-replacement.html">Knee Replacement Surgeon</a>
+            </li>
+            <li>
+              <a href="hip-replacement.html">Hip Replacement Surgeon</a>
+            </li>
+            <li><a href="arthroscopy.html">Arthroscopy Procedure</a></li>
+            <li><a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a></li>
+            <li>
+              <a href="sports-injury.html">Sports Injury Management</a>
+            </li>
+            <li><a href="arthritis.html">Arthritis Treatment</a></li>
+            <li><a href="osteoporosis.html">Osteoporosis Management</a></li>
+            <li>
+              <a href="/minimal-invasive-complex-trauma-surgery.html">Minimally Invasive Trauma
+                Surgery</a>
+            </li>
+          </ul>
+        </details>
+        <details>
+          <summary>Patient Resources</summary>
+          <ul>
+            <li><a href="/testimonial.html">Patient Testimonials</a></li>
+            <li><a href="/patientinfo.html">Patient Information</a></li>
+          </ul>
+        </details>
+        <li><a href="/blog.html">Health Blogs</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <header class="about-main-section">
+    <div class="hero-image">
+      <img src="/images/paitentinfo.webp" alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad" width="1920"
+        height="500" />
+      <div class="overlay"></div>
+      <div class="hero-text">
+        <h1>
+          Joint Ventures: How to Keep Your Bones Strong and Flexible!
+        </h1>
+        <nav class="breadcrumb">
+          <a href="index.html" style="text-transform: uppercase;">HOME</a>
+          <span class="chevron">></span><a href="services.html" class="chevron"
+            style="text-decoration: none;text-transform: uppercase;">services></a>
+          <span class="current" style="text-transform: uppercase;">Joint Ventures: How to Keep Your Bones Strong and
+            Flexible!</span>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!--blog main section content here-->
+
+  <div class="blog-container" id="blog-container-main-wrapper">
+    <div class="row" id="blog-flex-layout-row">
+
+      <!-- Main Blog Content -->
+      <div class="main-content" id="main-blog-post-content-area">
+        <img src="./images/join-health.png" alt="Joint Health" class="blog-image" id="main-blog-post-image">
+
+        <div class="blog-meta" id="blog-author-and-date-meta">
+          <p id="blog-post-author-info"><i class="fa fa-user"></i> By: Dr. Amit Sharma</p>
+          <p id="blog-post-date-info"><i class="fa fa-calendar"></i> 06-Nov-2024</p>
+        </div>
+        <h1 class="blog-title" id="main-blog-post-title">Joint Ventures: How to Keep Your Bones Strong and Flexible!
+        </h1>
+        <div class="blog-content" id="main-blog-post-content-body">
+          <p id="blog-paragraph-intro">Your bone and joint health is fundamental to a healthy and happy life, as it
+            helps you stay agile, active and independent. These essential components of our musculoskeletal system
+            provide structure, support, movement, and protection for vital organs.</p>
+
+          <p id="blog-paragraph-lifestyle">I wonder why people are so careless when ensuring their well-being is so
+            easy. Good nutrition, strengthening exercises, and a disciplined lifestyle can go a long way.</p>
+
+          <p id="blog-paragraph-childhood">The foundation for strong bones is laid during childhood. Calcium and vitamin
+            D from dairy, leafy greens, fish, and fortified cereals, along with protein and micronutrients like
+            magnesium and vitamin K, are vital.</p>
+
+          <p id="blog-paragraph-exercise">Exercise plays a critical role in maintaining bone density and flexibility.
+            Weight-bearing exercises like walking, jogging, and resistance training help bones grow stronger. Yoga and
+            swimming improve flexibility with minimal joint stress.</p>
+
+          <p class="highlight" id="blog-paragraph-highlighted-quote">I believe that everyone, at every phase of life,
+            should strive to maintain mobility. Even as you age, when your knee or hip joints may require intervention,
+            your muscle strength helps you recover faster.</p>
+
+          <p id="blog-paragraph-mobility-weight">Mobility also helps maintain a healthy weight, which reduces pressure
+            on joints. Excess body weight increases the risk of osteoarthritis and joint wear over time.</p>
+
+          <p id="blog-paragraph-lifestyle-habits">Smoking and heavy alcohol consumption reduce bone health. Smoking
+            affects calcium absorption, and alcohol disrupts nutrient balance. Quit smoking and moderate alcohol to
+            support long-term joint health.</p>
+
+          <p id="blog-paragraph-vitaminD">Despite the strong sun in India, vitamin D deficiency is common. Regular
+            checks for bone density and vitamin levels are essential.</p>
+
+          <p id="blog-paragraph-prevention">Preventive care today can help you enjoy mobility, strength, and
+            independence throughout life.</p>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <aside class="sidebar" id="recent-news-sidebar">
+        <div class="recent-posts" id="recent-news-wrapper">
+          <h5 id="recent-news-heading">Recent News</h5>
+
+          <div class="recent-post" id="recent-post-1">
+            <a href="https://www.dramitsharma.info/news/view/how-your-knees-can-make-or-break-you">
+              How Your Knees Can Make or Break You
+            </a>
+            <span id="recent-post-date-1">15-Jul-2024</span>
+          </div>
+
+          <div class="recent-post" id="recent-post-2">
+            <a href="https://www.dramitsharma.info/news/view/speeding-up-recovery-after-a-knee-transplant">
+              Speeding Up Recovery After a Knee Replacement
+            </a>
+            <span id="recent-post-date-2">23-Aug-2024</span>
+          </div>
+
+          <div class="recent-post" id="recent-post-3">
+            <a href="https://www.dramitsharma.info/news/view/osteoporosis-in-men-a-neglected-underreported-problem">
+              Osteoporosis in Men, a Neglected & Underreported Problem
+            </a>
+            <span id="recent-post-date-3">23-Jul-2024</span>
+          </div>
+
+          <div class="recent-post" id="recent-post-4">
+            <a href="https://www.dramitsharma.info/news/view/what-to-do-and-what-not-to-do-after-you-sprain-your-ankle">
+              What to Do After You Sprain Your Ankle
+            </a>
+            <span id="recent-post-date-4">09-Sep-2024</span>
+          </div>
+
+          <div class="recent-post" id="recent-post-5">
+            <a href="https://www.dramitsharma.info/news/view/joint-ventures-how-to-keep-your-bones-strong-and-flexible">
+              Joint Ventures: How to Keep Your Bones Strong and Flexible!
+            </a>
+            <span id="recent-post-date-5">06-Nov-2024</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!--blog main section content here-->
+
+  <!-- footer working  start here -->
   <!-- footer working  start here -->
   <footer class="footer-page bg-gray-900 text-white pt-12 pb-6 text-sm leading-relaxed">
     <!-- WhatsApp Floating Button -->
@@ -251,8 +271,8 @@
         <div class="footer-page__about">
           <img src="/images/logo.png" alt="Dr. Amit Sharma Logo" class="footer-page__logo" loading="lazy" />
           <p class="footer-page__description">
-            Dr. Amit Sharma is a senior orthopedic surgeon in Delhi NCR with 23+ years of experience in joint
-            replacement surgery.
+            Dr Amit Sharma is an Orthopedic surgeon with over 23 years of experience, specializing in Joint
+            replacements, Arthroscopy, Minimally invasive trauma surgery, and Sports injuries
           </p>
           <a href="about.html" class="footer-page__readmore">Read More About Dr. Sharma</a>
           <div class="footer-page__social">
@@ -273,11 +293,11 @@
         <!-- Useful Links -->
         <nav class="footer-page__nav" aria-label="Useful Links">
           <h2>Useful Links</h2>
-          <ul>
+          <ul class="demo-change">
             <li><a href="about.html">About</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="services.html">Service</a></li>
+            <li><a href="services.html">Our Expertise</a></li>
             <li><a href="testimonial.html">Testimonial</a></li>
             <li><a href="patientinfo.html">Patient Info</a></li>
           </ul>
@@ -285,8 +305,8 @@
 
         <!-- Specializations -->
         <nav class="footer-page__nav" aria-label="Specializations">
-          <h2>Specializations</h2>
-          <ul>
+          <h2>Our Expertise</h2>
+          <ul class="demo-unchange">
             <li><a href="knee-replacement.html">Knee Replacement</a></li>
             <li><a href="hip-replacement.html">Hip Replacement</a></li>
             <li><a href="arthroscopy.html">Arthroscopy</a></li>
@@ -300,9 +320,9 @@
 
         <!-- Contact Info -->
         <div class="footer-page__contact">
-          <h2>Clinic Hours</h2>
+          <h2>Working Hours</h2>
           <div class="footer-page__clinic">
-            <p><strong>Orthopedic Super Speciality Hospital</strong></p>
+            <p><strong>Yashodha Super speciality Hospital,Kaushambi Ghaziabad</strong></p>
             <ul>
               <li>Mon–Sat: 9 AM – 2 PM</li>
               <li>Mon–Sat: 5 PM – 7 PM</li>
@@ -311,7 +331,7 @@
             </p>
           </div>
           <div class="footer-page__clinic">
-            <p><strong>Orthopedic Clinic, Ghaziabad</strong></p>
+            <p><strong>City Clinic, Krishna Nagar. (Opposite Swarn Cinema, near Surya Hospital) Delhi</strong></p>
             <ul>
               <li>Mon–Sat: 7 PM – 9 PM</li>
             </ul>
@@ -328,7 +348,8 @@
       </div>
     </div>
   </footer>
-
-    <script src="app.js"></script>
+  <!-- footer working end  here -->
+  <script src="app.js"></script>
 </body>
+
 </html>
