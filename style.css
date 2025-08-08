@@ -1452,7 +1452,10 @@ p {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-
+.thanks{
+  color: #888;
+  font-weight: 700;
+}
 /*thank you page working css*/
 /*testimonail css main*/
 /* Hero Section */

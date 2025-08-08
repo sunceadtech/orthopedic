@@ -233,7 +233,10 @@ hr{
   opacity: 0.2;
 }
 
-
+.all-p-tags{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
 
 
 
