@@ -1,0 +1,348 @@
+/* Container */
+.service-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+.service-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Image Section */
+.service-image {
+  flex: 1 1 65%;
+}
+.service-image img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+/* Sidebar */
+.service-sidebar {
+  flex: 1 1 28%;
+  background-color: plum;
+  padding: 20px;
+  height: fit-content;
+  border-left: 2px solid black;
+  position: sticky;
+  top: 100px;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-list li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.service-list a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  display: block;
+  padding: 14px 10px;
+}
+
+.service-list a:hover {
+  color: #ccc;
+  transition: all 1s ease-in;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-container {
+    flex-direction: column;
+  }
+  .service-image,
+  .service-sidebar {
+    flex: 1 1 100%;
+  }
+  .service-sidebar {
+    position: static;
+    border-left: none;
+    margin-top: 20px;
+  }
+}
+
+
+
+/* Knee Replacement Section */
+.knee-replacement-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.knee-replacement-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* OPD Timings */
+.basic-service-start-hours {
+  flex: 1 1 12%;
+  background-color: #f4f3f3;
+  padding: 20px;
+  height: 70vh;
+  border-radius: 12px;
+}
+
+.basic-service-start-hours h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.basic-service-start-hours ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.basic-service-start-hours li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #333;
+}
+
+.basic-service-start-clinic-info {
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+  padding-top: 10px;
+}
+
+/* Knee Replacement Content */
+.knee-replacement-content {
+  flex: 1 1 48%;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  color: #333;
+}
+
+.knee-replacement-content h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.knee-replacement-content h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.knee-replacement-content h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.knee-replacement-content p {
+  margin-bottom: 16px;
+}
+
+.knee-replacement-content ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.knee-replacement-content ul li {
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .knee-replacement-container {
+    flex-direction: column;
+  }
+  .basic-service-start-hours,
+  .knee-replacement-content {
+    flex: 1 1 100%;
+    height: auto;
+  }
+}
+
+
+
+/* Border Utility */
+#border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+
+/* Contact Advice Section */
+.contactsAdvice {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #f1f1f1;
+}
+
+.contactsAdvice .heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.contactsAdvice .btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #1a73e8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.contactsAdvice .btn:hover {
+  background-color: #1558c0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contactsAdvice {
+    padding: 1.5rem 1rem;
+    margin: 20px 5vw;
+  }
+
+  .contactsAdvice .heading {
+    font-size: 1.25rem;
+  }
+
+  .contactsAdvice .btn {
+    padding: 0.65rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}
+hr{
+  opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#blog-container-main-wrapper {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#blog-flex-layout-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Main Content */
+#main-blog-post-content-area {
+  flex: 1 1 70%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#main-blog-post-image {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+#blog-author-and-date-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+#main-blog-post-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+#main-blog-post-content-body p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+#blog-paragraph-highlighted-quote {
+  font-style: italic;
+  font-weight: bold;
+  color: #9c00ff;
+}
+
+/* Sidebar */
+#recent-news-sidebar {
+  flex: 1 1 25%;
+}
+
+#recent-news-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#recent-news-heading {
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 2px solid #9c00ff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.recent-post {
+  margin-bottom: 15px;
+}
+
+.recent-post a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.recent-post span {
+  display: block;
+  font-size: 13px;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  #blog-flex-layout-row {
+    flex-direction: column;
+  }
+
+  #main-blog-post-content-area,
+  #recent-news-sidebar {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+
