@@ -206,7 +206,7 @@ p {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.blue_linebanner .text h4 {
+.blue_linebanner .text p {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -215,7 +215,7 @@ p {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.blue_linebanner .text.last h4 {
+.blue_linebanner .text.last p {
   margin-bottom: 0;
 }
 
@@ -379,7 +379,7 @@ p {
     text-shadow: none;
   }
 
-  .blue_linebanner .text h4 {
+  .blue_linebanner .text p {
     font-size: 13px;
     color: #555;
     text-shadow: none;
@@ -1238,6 +1238,7 @@ p {
 /*first content start end*/
 
 /* Home Contact Section Start */
+
 .home-contact-section {
   padding: 6rem;
   max-width: 100%;
@@ -1345,6 +1346,42 @@ p {
 .faq-icon {
   font-weight: bold;
   font-size: 1.25rem;
+}
+/* Mobile Responsive Adjustments */
+@media (max-width: 767px) {
+  .home-contact-section {
+    padding: 2rem; /* Mobile ke liye kam padding */
+    gap: 2rem;
+  }
+
+  .home-contact-form-wrapper,
+  .home-contact-faq-wrapper {
+    padding: 1.5rem; /* Mobile pe chhota padding */
+  }
+
+  .home-contact-title {
+    font-size: 1.5rem; /* Heading thodi chhoti */
+    text-align: center;
+  }
+
+  .home-contact-form input,
+  .home-contact-form textarea {
+    font-size: 1rem; /* Input font chhota */
+  }
+
+  .home-contact-button {
+    width: 100%; /* Mobile pe button full width */
+    font-size: 1.1rem;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .faq-answer {
+    font-size: 0.95rem;
+  }
 }
 
 /* Home Contact Section End */

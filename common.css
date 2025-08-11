@@ -500,7 +500,7 @@ body {
 }
 
 /* Contact Section */
-.footer-page__contact h2 {
+.footer-page__contact .active-links {
   font-size: 1.125rem;
   font-weight: 600;
   color: #c084fc;
@@ -667,7 +667,7 @@ body {
 }
 
 /* Navigation Links */
-.footer-page__nav h2 {
+.footer-page__nav .active-links{
   font-size: 1.125rem;
   font-weight: 600;
   color: #c084fc;
