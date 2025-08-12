@@ -249,6 +249,21 @@ hr{
 
 
 
+/* Normal blog paragraphs */
+.blog-content p {
+  margin-bottom: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* p jo h2/h3 ka replacement hai */
+.blog-content p.heading-p {
+  font-size: 1.25rem;  /* h3 size approx */
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  color: #000;
+}
 
 
 #blog-container-main-wrapper {

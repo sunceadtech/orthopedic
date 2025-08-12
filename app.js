@@ -43,24 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// =============================================
-// Swiper Slider for Expertise Section
-// =============================================
-var swiper = new Swiper("#expertiseSwiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    640: { slidesPerView: 2 },
-    768: { slidesPerView: 3 },
-    1024: { slidesPerView: 4 },
-    1200: { slidesPerView: 5 }, // Show 5 slides on larger screens
-  },
-});
 
 
 // =============================================
@@ -70,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const testimonials = [
     {
       icon: "./images/testicon.png",
-      text: "I have been suffering from osteoarthritis for the last 7-8 years... He is very caring. He checks on his patient 2-3 times a day. It has been a great experience.",
+      text: "I had Hip pain for months. The doctor here explained everything so well and treated me with care Now I can walk without pain. Dr Amit Sharma is The Best Orthopedic Specialist In Ghaziabad",
       image: "./images/geeta.webp",
       name: "Geeta Devi (Patna)"
     },
@@ -337,4 +319,24 @@ document.addEventListener('DOMContentLoaded', function () {
       prevEl: '.swiper-button-prev',
     },
   });
+});
+
+
+// =============================================
+// Swiper Slider for Expertise Section
+// =============================================
+var swiper = new Swiper("#expertiseSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: { slidesPerView: 2 },
+    768: { slidesPerView: 3 },
+    1024: { slidesPerView: 4 },
+    1200: { slidesPerView: 5 }, // Show 5 slides on larger screens
+  },
 });

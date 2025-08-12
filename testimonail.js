@@ -4,7 +4,7 @@ const testimonials = [
     image: "/images/geeta.webp",
     title: "Osteoarthritis Treatment",
     description:
-      "I have been suffering from osteoarthritis for the last 7-8 years. Dr. Amit is very caring — he checks on his patient 2-3 times a day. It has been a great experience.",
+      "I had knee pain for months. The doctor here explained everything so well and treated me with care  Now I can walk without pain. Dr Amit Sharma is The Best Orthopedic Specialist In Ghaziabad",
     alt: "Geeta Devi from Patna after osteoarthritis treatment by Dr. Amit Sharma",
   },
   {

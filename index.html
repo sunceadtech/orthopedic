@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best Orthopedic Surgeon in Ghaziabad | Dr. Amit Sharma</title>
+  <title>Best Orthopedic Surgeon in Ghaziabad | Indirapuram</title>
+  <link rel="icon" type="image/png" href="/images/fevicon.png" />
   <meta name="description"
     content="Consult Dr. Amit Sharma, the best orthopedic surgeon in Ghaziabad for knee replacement, hip replacement, and advanced joint pain treatments." />
-  <meta name="keywords"
-    content="Best Orthopedic Surgeon in Ghaziabad, Dr Amit Sharma, Knee Replacement Ghaziabad, Hip Replacement Ghaziabad, Joint Pain Specialist" />
+  <meta name="keywords" content="Best Orthopedic Surgeon in Ghaziabad,Top Orthopaedic Surgeon In Indirapuram" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://dramitsharmaortho.com/" />
+  <link rel="canonical" href="index.html" />
 
   <!-- Open Graph (Facebook & LinkedIn) -->
   <meta property="og:type" content="website" />
@@ -27,9 +27,10 @@
   <meta name="twitter:description"
     content="Advanced orthopedic surgeries and treatments in Ghaziabad by Dr. Amit Sharma." />
   <meta name="twitter:image" content="https://dramitsharmaortho.com/images/herobanner.webp" />
-
   <!-- Preload LCP Image -->
-  <link rel="preload" as="image" href="/images/herobanner.webp" type="image/webp" fetchpriority="high" />
+  <!-- Inside <head> -->
+  <link rel="preload" as="image" href="./images/herobanner.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="./images/heroimage.webp" fetchpriority="high">
 
   <!-- Fonts: Preconnect + Swap -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
@@ -42,7 +43,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-
   <!-- Structured Data (JSON-LD for LocalBusiness/Physician) -->
   <script type="application/ld+json">
   {
@@ -142,12 +142,12 @@
             </div>
             <ul class="dropdown-menu">
               <li>
-                <a href="/knee-replacement.html">Knee Replacement Surgeon</a>
+                <a href="/best-knee-replacement-surgeon-in-ghaziabad.html">Knee Replacement Surgeon</a>
               </li>
               <li>
-                <a href="hip-replacement.html">Hip Replacement Surgeon</a>
+                <a href="best-hip-replacement-surgeon-in-ghaziabad.html">Hip Replacement Surgeon</a>
               </li>
-              <li><a href="arthroscopy.html">Arthroscopy Procedure</a></li>
+              <li><a href="best-arthroscopic-surgeon-in-ghaziabad.html">Arthroscopy Procedure</a></li>
               <li>
                 <a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a>
               </li>
@@ -189,18 +189,17 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-
         <details>
           <summary><i class="fa-solid fa-circle-arrow-right"></i>
             Our Expertise</summary>
           <ul>
             <li>
-              <a href="knee-replacement.html">Knee Replacement Surgeon</a>
+              <a href="best-knee-replacement-surgeon-in-ghaziabad.html">Knee Replacement Surgeon</a>
             </li>
             <li>
-              <a href="hip-replacement.html">Hip Replacement Surgeon</a>
+              <a href="best-hip-replacement-surgeon-in-ghaziabad.html">Hip Replacement Surgeon</a>
             </li>
-            <li><a href="arthroscopy.html">Arthroscopy Procedure</a></li>
+            <li><a href="best-arthroscopic-surgeon-in-ghaziabad.html">Arthroscopy Procedure</a></li>
             <li><a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a></li>
             <li>
               <a href="sports-injury.html">Sports Injury Management</a>
@@ -232,9 +231,12 @@
   <div class="swiperMainWrapper mainSwiperbanner homeindex3">
     <div class="swiper-container">
       <div class="swiper-wrapper">
+
         <!-- Slide 1 -->
         <div class="swiper-slide mainBanner bgShadow">
-          <div class="sliderBg bannerimg1"></div>
+          <img src="./images/herobanner.webp" alt="Expert Care for Every Step You Take" class="sliderImg" width="1920"
+            height="800" fetchpriority="high" decoding="async" loading="eager">
+
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-md-12">
@@ -242,7 +244,7 @@
                   <div class="rightone">
                     <div class="bannerContentWrapper">
                       <div class="bannerTitle">
-                        <h1 class="h1 light as">Expert Care for Every Step You Take</h1>
+                        <p class="h1 light as">Expert Care for Every Step You Take</p>
                         <p>We are dedicated to restoring your mobility and enhancing your quality of life with
                           personalised treatment plans and advanced surgical techniques</p>
                       </div>
@@ -283,7 +285,7 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div><!-- blue line end -->
                       </div>
                     </div>
                   </div>
@@ -291,11 +293,13 @@
               </div>
             </div>
           </div>
-        </div>
+        </div><!-- Slide 1 End -->
 
         <!-- Slide 2 -->
         <div class="swiper-slide mainBanner bgShadow">
-          <div class="sliderBg bannerimg2"></div>
+          <img src="./images/heroimage.webp" alt="Mastering Surgical Excellence" class="sliderImg swiper-lazy"
+            width="1920" height="800" loading="lazy" decoding="async">
+
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-md-12">
@@ -303,7 +307,7 @@
                   <div class="rightone">
                     <div class="bannerContentWrapper">
                       <div class="bannerTitle">
-                        <h2 class="h1 light as">Mastering Surgical Excellence for Optimal Outcomes</h2>
+                        <p class="h1 light as">Mastering Surgical Excellence for Optimal Outcomes</p>
                         <p>With unparalleled expertise and cutting-edge techniques, we provide top-tier orthopaedic
                           surgical care.</p>
                       </div>
@@ -344,7 +348,7 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div><!-- blue line end -->
                       </div>
                     </div>
                   </div>
@@ -352,63 +356,83 @@
               </div>
             </div>
           </div>
-        </div>
+        </div><!-- Slide 2 End -->
+
       </div>
 
-      <!-- Add Pagination -->
+      <!-- Pagination -->
       <div class="swiper-pagination"></div>
-      <!-- Add Navigation -->
-      <!-- <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div> -->
     </div>
   </div>
   <!-- home page end here -->
 
-  <!-- Expertise Section -->
-  <section id="testimonial">
-    <div id="container">
-      <h2 id="section-title">Our <span>Expertise</span></h2>
-      <p id="section-subtitle">
-        With unparalleled surgical expertise and comprehensive non-surgical treatments, we ensure optimal recovery from
-        complex joint, bone, and muscle conditions.
-      </p>
 
-      <!-- Swiper -->
-      <div class="swiper" id="expertiseSwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="images/experties1.webp" alt="Arthroscopy">
-            <p><a href="arthroscopy.html" target="_blank">Arthroscopy</a></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/experties2.webp" alt="ACL & PCL Reconstruction">
-            <p><a href="acl-and-pcl-reconstruction.html" target="_blank">ACL & PCL Reconstruction</a></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/experties3.webp" alt="Sports Injury">
-            <p><a href="sports-injury.html" target="_blank">Sports Injury</a></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/experties5.webp" alt="Arthritis">
-            <p><a href="arthritis.html" target="_blank">Arthritis</a></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/experties6.webp" alt="Osteoporosis">
-            <p><a href="osteoporosis.html" target="_blank">Osteoporosis</a></p>
-          </div>
+  <!-- Expertise Section -->
+ <section id="testimonial">
+  <div id="container">
+    <h2 id="section-title">Our <span>Expertise</span></h2>
+    <p id="section-subtitle">
+      With unparalleled surgical expertise and comprehensive non-surgical treatments,
+      we ensure optimal recovery from complex joint, bone, and muscle conditions.
+    </p>
+
+    <!-- Swiper -->
+    <div class="swiper" id="expertiseSwiper">
+      <div class="swiper-wrapper">
+        
+        <!-- First slide: preload for LCP -->
+        <div class="swiper-slide">
+          <img src="images/experties1.webp"
+               alt="Arthroscopy"
+               width="300" height="200"
+               loading="eager"
+               decoding="async"
+               fetchpriority="high">
+          <p><a href="best-arthroscopic-surgeon-in-ghaziabad.html" target="_blank">Arthroscopy</a></p>
         </div>
-        <!-- Pagination -->
-        <div class="swiper-pagination"></div>
+
+        <!-- Lazy-loaded slides -->
+        <div class="swiper-slide">
+          <img src="images/experties2.webp" alt="ACL & PCL Reconstruction"
+               width="300" height="200"
+               loading="lazy" decoding="async">
+          <p><a href="acl-and-pcl-reconstruction.html" target="_blank">ACL & PCL Reconstruction</a></p>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="images/experties3.webp" alt="Sports Injury"
+               width="300" height="200"
+               loading="lazy" decoding="async">
+          <p><a href="sports-injury.html" target="_blank">Sports Injury</a></p>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="images/experties5.webp" alt="Arthritis"
+               width="300" height="200"
+               loading="lazy" decoding="async">
+          <p><a href="arthritis.html" target="_blank">Arthritis</a></p>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="images/experties6.webp" alt="Osteoporosis"
+               width="300" height="200"
+               loading="lazy" decoding="async">
+          <p><a href="osteoporosis.html" target="_blank">Osteoporosis</a></p>
+        </div>
       </div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
     </div>
-  </section>
+  </div>
+</section>
   <!-- first content section end  2 -->
   <!-- home about content section start -->
   <section class="homeabout-section-wrapper" aria-labelledby="homeabout-doctor-heading">
     <div class="homeabout-container">
       <!-- Image Section -->
       <figure class="homeabout-image-wrapper">
-        <img src="/images/drsharma.webp"
+        <img src="/images/dramitsharma.webp"
           alt="Dr. Amit Sharma - Orthopedic Surgeon in Ghaziabad, expert in joint replacement and sports injuries"
           width="600" height="500" loading="lazy" decoding="async" />
         <figcaption class="sr-only">
@@ -418,9 +442,9 @@
 
       <!-- Text Section -->
       <article>
-        <h3 id="homeabout-doctor-heading" class="homeabout-heading">
+        <p id="homeabout-doctor-heading" class="homeabout-heading">
           Meet <span class="home-about-h2">Dr Amit Sharma</span>
-        </h3>
+        </p>
         <p class="homeabout-paragraph">
           Dr Amit Sharma is an Orthopedic surgeon with over 23 years of experience, specializing in Joint replacements,
           Arthroscopy, Minimally invasive trauma surgery, and Sports injuries. What really sets him apart is his unique
@@ -468,7 +492,6 @@
             <p class="youtube-video-title">Treating Meniscus Tear</p>
             <p class="youtube-video-desc">Minimally invasive arthroscopic solutions and aftercare tips.</p>
           </div>
-
           <!-- Video 3 -->
           <div class="youtube-video-card">
             <iframe class="youtube-video-frame" src="https://www.youtube.com/embed/ZCuWvhuk6a4" allowfullscreen
@@ -490,7 +513,6 @@
   </section>
   <!--youtube video end section-->
 
-
   <!--home content 5 section start here -->
   <div id="joint-health-section">
     <div id="joint-health-animation">
@@ -503,7 +525,7 @@
         <div id="joint-health-row">
           <div id="joint-health-content">
             <div id="joint-health-title">
-              <h2>Why is Joint Health Important?</h2>
+              <p class="join-para">Why is Joint Health Important?</p>
               <p>
                 Maintaining optimal joint health is crucial for overall well-being and mobility. Healthy joints ensure
                 effortless movement, support daily activities, and prevent pain or discomfort. Explore our website for
@@ -538,11 +560,50 @@
 
   <!--home content 5 section end here -->
 
+  <!--new content section-->
+  <div class="ortho-container">
+    <h1 class="ortho-title-main">Best Orthopedic Surgeon in Ghaziabad</h1>
 
+    <p class="ortho-subtext">
+      <span>We Help You Walk, Move, and Live Without Pain.</span>
+    </p>
+
+    <h2 class="ortho-heading-why">✅ Why Choose Doctor Amit Sharma The Best Orthopaedist</h2>
+    <ul class="ortho-list-why">
+      <li class="ortho-list-item">👨‍⚕️ <span>24+ years</span> experience in treating bones and joints</li>
+      <li class="ortho-list-item">🏥 Modern machines like X-ray and MRI for fast check-ups</li>
+      <li class="ortho-list-item">📅 Quick appointments — no long waiting time</li>
+      <li class="ortho-list-item">💻 Book Appointment for Consultation</li>
+      <li class="ortho-list-item">⭐ Trusted by thousands of happy patients in Ghaziabad</li>
+    </ul>
+
+    <h2 class="ortho-heading-treatments">🌟 Treatments From Top Orthopaedic Doctor In Ghaziabad</h2>
+    <ul class="ortho-list-treatments">
+      <li class="ortho-list-item">Pain in knees, hips, or shoulders</li>
+      <li class="ortho-list-item">Broken bones and accidents</li>
+      <li class="ortho-list-item">Back pain and neck pain</li>
+      <li class="ortho-list-item">Arthritis or joint pain</li>
+      <li class="ortho-list-item">Sports injuries like twisted knees or torn ligaments</li>
+    </ul>
+
+    <div class="ortho-cta">
+      📞 Book Your Visit Today! <br>
+      🕒 Same-day or next-day appointments <br>
+      📍 Easy to reach location in <em>[Indirapuram, Ghaziabad]</em> <br>
+      <a href="contact.html" class="ortho-btn-book">Book Online</a>
+    </div>
+
+    <h3 class="ortho-heading-safe">🛡️ Safe & Clean Leading Orthopedic Clinic In Ghaziabad</h3>
+    <p class="ortho-description">
+      Your safety is important. We keep our clinic clean and sanitized, and follow all health rules.
+      Whether you have an injury or long-term joint pain, we’ll help you feel better and move easily again.
+    </p>
+  </div>
+  <!--new content end-->
   <!--home crawsel section start here -->
   <section id="testimonial-section-long-unique">
     <div id="testimonial-container-unique">
-      <h3 id="testimonial-heading-unique">Our Happy Patients</h3>
+      <p id="testimonial-heading-unique">Our Happy Patients</p>
       <div class="swiper mySwiper" id="testimonial-swiper-unique">
         <div class="swiper-wrapper">
           <!-- Slides will be injected dynamically via JS -->
@@ -564,12 +625,11 @@
       <div class="blog-section-title">
         <p class="blog-section-heading">Blogs</p>
       </div>
-
       <div class="blog-cards-row">
         <!-- Blog 1 -->
         <div class="blog-card">
           <div class="blog-img-wrapper">
-            <img src="./images/join-health.png" alt="Knee Joint" class="blog-img" />
+            <img src="./images/join-health.webp" alt="Knee Joint" class="blog-img" />
             <div class="blog-date">15 July, 2024</div>
           </div>
           <p class="blog-title">How Your Knees Can Make or Break You</p>
@@ -580,7 +640,6 @@
             wide range of motion, essential for walking, running, jumping, and climbing stairs.</p>
           <div class="blog-readmore"><a href="bloghome1.html">read more</a></div>
         </div>
-
         <!-- Blog 2 -->
         <div class="blog-card">
           <div class="blog-img-wrapper">
@@ -707,9 +766,9 @@
         <nav class="footer-page__nav" aria-label="Specializations">
           <p class="active-links">Our Expertise</p>
           <ul class="demo-unchange">
-            <li><a href="knee-replacement.html">Knee Replacement</a></li>
-            <li><a href="hip-replacement.html">Hip Replacement</a></li>
-            <li><a href="arthroscopy.html">Arthroscopy</a></li>
+            <li><a href="best-knee-replacement-surgeon-in-ghaziabad.html">Knee Replacement</a></li>
+            <li><a href="best-hip-replacement-surgeon-in-ghaziabad.html">Hip Replacement</a></li>
+            <li><a href="best-arthroscopic-surgeon-in-ghaziabad.html">Arthroscopy</a></li>
             <li><a href="acl-and-pcl-reconstruction.html">ACL and PCL Reconstruction</a></li>
             <li><a href="sports-injury.html">Sports Injury</a></li>
             <li><a href="arthritis.html">Arthritis Care</a></li>
